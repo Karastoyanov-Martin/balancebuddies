@@ -1,0 +1,5227 @@
+{
+  "agent": "A",
+  "patch": "18.5",
+  "retrieved": "2026-10-27",
+  "units": [
+    {
+      "name": "Cinderling",
+      "cost": 1,
+      "traits": [
+        "Hunter",
+        "Riftbeast"
+      ],
+      "hp": [
+        500,
+        900,
+        1620
+      ],
+      "ad": [
+        40,
+        60,
+        90
+      ],
+      "as": 0.7,
+      "armor": 25,
+      "mr": 25,
+      "range": 4,
+      "manaStart": 0,
+      "manaMax": 50,
+      "ability": {
+        "name": "Razor Leaves",
+        "text": "Summon five razor-sharp leaves that converge on the current target, dealing a total of 340/510/770 [AD][AP] physical damage and applying 20% Wound and 1% Burn for 4 seconds. Scarlet Buff: Cinderling gains 22% Attack Damage each cast.",
+        "numbers": {
+          "Damage": [
+            340,
+            510,
+            770
+          ],
+          "Damage (AD part)": [
+            310,
+            465,
+            700
+          ],
+          "Damage (AP part)": [
+            30,
+            45,
+            70
+          ],
+          "Wound %": [
+            20,
+            20,
+            20
+          ],
+          "Burn % max HP": [
+            1,
+            1,
+            1
+          ],
+          "Duration (s)": [
+            4,
+            4,
+            4
+          ],
+          "Scarlet Buff AD % per cast": [
+            22,
+            22,
+            22
+          ]
+        },
+        "scaling": {
+          "Damage": "AD + AP; op.gg breakdown '340 = 310 (AD) + 30 (AP)', AD part [310/465/700], AP part [30/45/70]"
+        },
+        "damageType": "physical"
+      },
+      "sources": [
+        "https://op.gg/tft/meta-trends/champion/DA_Cinderling18",
+        "https://metabot.gg/en/TFT/18/champions/range",
+        "https://metabot.gg/de_DE/TFT/18/champions/placement"
+      ],
+      "conflicts": "",
+      "confidence": "high",
+      "notes": "op.gg page shows patch 18.5. Range not shown on op.gg; range 4 from metabot. Per-star constants (Wound/Burn/duration/buff) given once in text; repeated across stars by me for shape only."
+    },
+    {
+      "name": "Camille",
+      "cost": 1,
+      "traits": [
+        "Coven",
+        "Ravager"
+      ],
+      "hp": [
+        700,
+        1260,
+        2268
+      ],
+      "ad": [
+        40,
+        60,
+        90
+      ],
+      "as": 0.75,
+      "armor": 40,
+      "mr": 40,
+      "range": 1,
+      "manaStart": 0,
+      "manaMax": 25,
+      "ability": {
+        "name": "Defensive Sweep",
+        "text": "Slice the target for 160/240/425 [AD][AP] physical damage and gain 60/90/200 Shield for 2 seconds.",
+        "numbers": {
+          "Damage": [
+            160,
+            240,
+            425
+          ],
+          "Damage (AD part)": [
+            150,
+            225,
+            400
+          ],
+          "Damage (AP part)": [
+            10,
+            15,
+            25
+          ],
+          "Shield": [
+            60,
+            90,
+            200
+          ]
+        },
+        "scaling": {
+          "Damage": "AD + AP; op.gg breakdown '160 = 150([AD]) + 10([AP])', AD part [150/225/400], AP part [10/15/25]",
+          "Shield": "no scaling icon shown"
+        },
+        "damageType": "physical"
+      },
+      "sources": [
+        "https://op.gg/tft/meta-trends/champion/DA_18_Camille",
+        "https://metabot.gg/en/TFT/18/champions/armor",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-4"
+      ],
+      "conflicts": "",
+      "confidence": "high",
+      "notes": "op.gg patch 18.5. AS 0.75 matches metabot. Range from metabot. 18.4 notes 150/225/400 consistent."
+    },
+    {
+      "name": "Karma",
+      "cost": 1,
+      "traits": [
+        "Blossom",
+        "Spellweaver"
+      ],
+      "hp": [
+        500,
+        900,
+        1620
+      ],
+      "ad": [
+        25,
+        38,
+        56
+      ],
+      "as": 0.7,
+      "armor": 25,
+      "mr": 25,
+      "range": 4,
+      "manaStart": 0,
+      "manaMax": 40,
+      "ability": {
+        "name": "Karmic Bond",
+        "text": "Tether the current target, dealing 280/420/630 [AP] magic damage over 1.5 seconds. Then release a burst of power around them, dealing 125/185/300 [AP] magic damage to all enemies in a 1 Hex radius and 30% Slowing them for 2 seconds.",
+        "numbers": {
+          "Damage": [
+            280,
+            420,
+            630
+          ],
+          "Burst Damage": [
+            125,
+            185,
+            300
+          ],
+          "Slow %": [
+            30,
+            30,
+            30
+          ]
+        },
+        "scaling": {
+          "Damage": "AP",
+          "Burst Damage": "AP"
+        },
+        "damageType": "magic"
+      },
+      "sources": [
+        "https://op.gg/tft/meta-trends/champion/DA_Karma18",
+        "https://metabot.gg/en/TFT/18/champions/range",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-3"
+      ],
+      "conflicts": "",
+      "confidence": "high",
+      "notes": "op.gg patch 18.5. Slow = Reduce Attack Speed per op.gg glossary. 18.3 notes Explosion 125/185/300 consistent."
+    },
+    {
+      "name": "Kobuko",
+      "cost": 1,
+      "traits": [
+        "Brawler",
+        "Sprykin"
+      ],
+      "hp": [
+        700,
+        1260,
+        2268
+      ],
+      "ad": [
+        55,
+        83,
+        124
+      ],
+      "as": 0.65,
+      "armor": 40,
+      "mr": 40,
+      "range": 1,
+      "manaStart": 30,
+      "manaMax": 90,
+      "ability": {
+        "name": "Dance of Life",
+        "text": "Restore [HP][AP] Health over 2 seconds (op.gg stale totals 314/403/619). The next attack is replaced with a bash that deals 140/231/377 [HP][AP] magic damage.",
+        "numbers": {
+          "Damage": [
+            140,
+            231,
+            377
+          ],
+          "Damage (bracket values)": [
+            70,
+            105,
+            150
+          ],
+          "Heal (AP part)": [
+            285,
+            335,
+            480
+          ]
+        },
+        "scaling": {
+          "Heal": "HP + AP. op.gg (stale, links version=18.1): 'Heal: 314 = 49([HP]) + 265([AP]) [ 265 / 315 / 460 ]'; official 18.4 notes 'Heal AP: 265/315/460/575 => 285/335/480/595'. Recorded AP part 285/335/480; 18.5 totals not found.",
+          "Damage": "HP + AP; op.gg breakdown 'Damage: 140 = 70([HP]) + 70([AP]) [ 70 / 105 / 150 ]'"
+        },
+        "damageType": "magic"
+      },
+      "sources": [
+        "https://op.gg/tft/meta-trends/champion/DA_18_Kobuko",
+        "https://metabot.gg/en/TFT/18/champions/armor",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-4"
+      ],
+      "conflicts": "Heal: op.gg stale AP part 265/315/460 vs official 18.4 notes 285/335/480.",
+      "confidence": "low",
+      "notes": "op.gg page Version label was blank; page links reference version=18.1, so this page may be pre-18.5 data. Totals depend on unit HP so HP-scaling part ratio not shown. Metabot stats (mana 90, AD 55, AS 0.65, HP 700, 40/40) agree."
+    },
+    {
+      "name": "Leona",
+      "cost": 1,
+      "traits": [
+        "Defender",
+        "Solar"
+      ],
+      "hp": [
+        750,
+        1350,
+        2430
+      ],
+      "ad": [
+        50,
+        75,
+        113
+      ],
+      "as": 0.65,
+      "armor": 40,
+      "mr": 40,
+      "range": 1,
+      "manaStart": 30,
+      "manaMax": 90,
+      "ability": {
+        "name": "Shield Bash",
+        "text": "Passive: Start combat with 60/80/100 [AP] bonus Armor and Magic Resist that decays over 12 seconds. Active: Bash the current target, dealing 60/108/162 [Armor] magic damage and Stunning them for 1.5 seconds.",
+        "numbers": {
+          "Decaying Resists": [
+            60,
+            80,
+            100
+          ],
+          "Damage": [
+            60,
+            108,
+            162
+          ],
+          "Damage % Armor": [
+            150,
+            270,
+            405
+          ],
+          "Stun (s)": [
+            1.5,
+            1.5,
+            1.5
+          ],
+          "Decay duration (s)": [
+            12,
+            12,
+            12
+          ]
+        },
+        "scaling": {
+          "Decaying Resists": "AP",
+          "Damage": "Armor: '[150% / 270% / 405%]' of Armor"
+        },
+        "damageType": "magic"
+      },
+      "sources": [
+        "https://op.gg/tft/meta-trends/champion/DA_18_Leona",
+        "https://metabot.gg/en/TFT/18/champions/armor",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-2"
+      ],
+      "conflicts": "",
+      "confidence": "high",
+      "notes": "op.gg patch 18.5. 18.2 notes mana 40/100 => 30/90 and resists 60/80/100 consistent."
+    },
+    {
+      "name": "Ornn",
+      "cost": 1,
+      "traits": [
+        "Defender",
+        "Elderwood"
+      ],
+      "hp": [
+        700,
+        1260,
+        2268
+      ],
+      "ad": [
+        40,
+        60,
+        90
+      ],
+      "as": 0.6,
+      "armor": 40,
+      "mr": 40,
+      "range": 1,
+      "manaStart": 40,
+      "manaMax": 100,
+      "ability": {
+        "name": "Bellows Breath",
+        "text": "Active: Gain 400/460/550 Shield for 4 seconds and deal 200/300/450 magic damage to enemies in a cone. Quest: Each player combat, Ornn stores damage blocked as Forge Power, increased by 85% at 3-star. Gain an Artifact Anvil each time he gains enough Forge Power. Second Artifact threshold: 140,000 Forge Power.",
+        "numbers": {
+          "Shield": [
+            400,
+            460,
+            550
+          ],
+          "Damage": [
+            200,
+            300,
+            450
+          ]
+        },
+        "scaling": {
+          "Shield": "scaling icon not identifiable on op.gg (likely AP)",
+          "Damage": "scaling icon not identifiable on op.gg (likely AP)"
+        },
+        "damageType": "magic"
+      },
+      "sources": [
+        "https://op.gg/tft/meta-trends/champion/DA_18_Ornn",
+        "https://metabot.gg/en/TFT/18/champions/armor",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-3"
+      ],
+      "conflicts": "",
+      "confidence": "medium",
+      "notes": "op.gg patch 18.5. Scaling icon not rendered in fetched text. First Forge Power threshold value missing from page. 18.3 notes 3-star Forge bonus 85% and 2nd threshold 140,000 consistent."
+    },
+    {
+      "name": "Pebbles",
+      "cost": 1,
+      "traits": [
+        "Invoker",
+        "Riftbeast"
+      ],
+      "hp": [
+        500,
+        900,
+        1620
+      ],
+      "ad": [
+        35,
+        53,
+        79
+      ],
+      "as": 0.8,
+      "armor": 25,
+      "mr": 25,
+      "range": 4,
+      "manaStart": 30,
+      "manaMax": 70,
+      "ability": {
+        "name": "Azure Laser",
+        "text": "Begin consuming 35% max Mana per second and channeling a laser on the target. Each second while casting, deal 160/240/360 magic damage to them and reduce their Magic Resist by 3. Teal Buff: Gain 2 Mana Regen for every 4 seconds channeled.",
+        "numbers": {
+          "Damage per second": [
+            160,
+            240,
+            360
+          ],
+          "Mana consumed % max per second": [
+            35,
+            35,
+            35
+          ],
+          "MR shred per second": [
+            3,
+            3,
+            3
+          ]
+        },
+        "scaling": {
+          "Damage per second": "scaling icon not identifiable on op.gg (likely AP)"
+        },
+        "damageType": "magic"
+      },
+      "sources": [
+        "https://op.gg/tft/meta-trends/champion/DA_18_Sentry",
+        "https://metabot.gg/en/TFT/18/champions/range"
+      ],
+      "conflicts": "",
+      "confidence": "medium",
+      "notes": "op.gg patch 18.5. Mana shown as 'Active 30 / 70' (interpreted as start/max). Metabot mana 70."
+    },
+    {
+      "name": "Rakan",
+      "cost": 1,
+      "traits": [
+        "Fae",
+        "Juggernaut",
+        "Vanguard"
+      ],
+      "hp": [
+        700,
+        1260,
+        2268
+      ],
+      "ad": [
+        45,
+        68,
+        101
+      ],
+      "as": 0.6,
+      "armor": 35,
+      "mr": 35,
+      "range": 1,
+      "manaStart": 35,
+      "manaMax": 105,
+      "ability": {
+        "name": "Entrancing Dance",
+        "text": "Gain 290/340/435 [AP] Shield for 4 seconds. Then grant the ally who has dealt the most damage this combat 90%/100%/130% [AP] decaying Attack Speed for 4 seconds.",
+        "numbers": {
+          "Shield": [
+            290,
+            340,
+            435
+          ],
+          "Attack Speed %": [
+            90,
+            100,
+            130
+          ]
+        },
+        "scaling": {
+          "Shield": "AP",
+          "Attack Speed %": "AP"
+        },
+        "damageType": "none"
+      },
+      "sources": [
+        "https://op.gg/tft/meta-trends/champion/DA_18_Rakan",
+        "https://metabot.gg/en/TFT/18/champions/range",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-4"
+      ],
+      "conflicts": "",
+      "confidence": "medium",
+      "notes": "op.gg page labelled 'Version: 18.4' (may not reflect 18.5). Metabot (mana 105, AD 45, AS 0.60, HP 700, 35/35) agrees. 18.4 notes Shield 270/320/415 => 290/340/435 consistent."
+    },
+    {
+      "name": "Rek'Sai",
+      "cost": 1,
+      "traits": [
+        "Brawler",
+        "Blackthorn"
+      ],
+      "hp": [
+        700,
+        1260,
+        2268
+      ],
+      "ad": [
+        50,
+        75,
+        113
+      ],
+      "as": 0.55,
+      "armor": 40,
+      "mr": 40,
+      "range": 1,
+      "manaStart": 40,
+      "manaMax": 100,
+      "ability": {
+        "name": "Uproot",
+        "text": "Passive: Restore 17/27/43 [HP] Health each second, tripled for 3 seconds after casting. Active: Lunge out of the ground, Stunning adjacent enemies for 1 second and dealing 70/105/160 [AP] magic damage to them.",
+        "numbers": {
+          "Heal per second": [
+            17,
+            27,
+            43
+          ],
+          "Heal (bracket values)": [
+            10,
+            14,
+            20
+          ],
+          "Damage": [
+            70,
+            105,
+            160
+          ],
+          "Stun (s)": [
+            1,
+            1,
+            1
+          ]
+        },
+        "scaling": {
+          "Heal per second": "HP + flat; op.gg 'Heal: 17 = 7([HP]) + 10 [ 10 / 14 / 20 ]'",
+          "Damage": "AP"
+        },
+        "damageType": "magic"
+      },
+      "sources": [
+        "https://op.gg/tft/meta-trends/champion/DA_18_RekSai",
+        "https://metabot.gg/en/TFT/18/champions/range"
+      ],
+      "conflicts": "",
+      "confidence": "high",
+      "notes": "op.gg patch 18.5."
+    },
+    {
+      "name": "Varus",
+      "cost": 1,
+      "traits": [
+        "Inferno",
+        "Rapidfire"
+      ],
+      "hp": [
+        500,
+        900,
+        1620
+      ],
+      "ad": [
+        40,
+        60,
+        90
+      ],
+      "as": 0.75,
+      "armor": 25,
+      "mr": 25,
+      "range": 4,
+      "manaStart": 30,
+      "manaMax": 120,
+      "ability": {
+        "name": "Piercing Arrow",
+        "text": "Wind up, then fire an arrow at the most enemies in line with the target. It deals 445/670/1070 [AD][AP] physical damage to enemies hit, reduced by 40% for each enemy it passes through (minimum 40%).",
+        "numbers": {
+          "Damage": [
+            445,
+            670,
+            1070
+          ],
+          "Damage (AD part)": [
+            415,
+            625,
+            1000
+          ],
+          "Damage (AP part)": [
+            30,
+            45,
+            70
+          ],
+          "Reduction per enemy %": [
+            40,
+            40,
+            40
+          ],
+          "Minimum %": [
+            40,
+            40,
+            40
+          ]
+        },
+        "scaling": {
+          "Damage": "AD + AP; op.gg '445 = 415([AD]) + 30([AP])', AD part [415/625/1000], AP part [30/45/70]"
+        },
+        "damageType": "physical"
+      },
+      "sources": [
+        "https://op.gg/tft/meta-trends/champion/DA_18_Varus",
+        "https://metabot.gg/en/TFT/18/champions/range",
+        "https://metabot.gg/fr_FR/TFT/18/champions/attack-speed",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-4",
+        "https://hexkey.app/patches/18.5"
+      ],
+      "conflicts": "Attack speed: op.gg 0.75 vs metabot range/fr pages 0.70; official 18.4 notes 'Attack Speed: .7 => .75' -> 0.75. Mana: op.gg (18.5) 30/120 and metabot 120 vs official 18.4 B-patch (Oct 7) 'Varus Mana: 30/120 => 20/110' (hexkey lists the same change under 18.5). Kept op.gg 30/120; unresolved.",
+      "confidence": "low",
+      "notes": "op.gg page labelled 18.5; recorded op.gg AS. Metabot may be pre-18.5; check patch notes."
+    },
+    {
+      "name": "Veigar",
+      "cost": 1,
+      "traits": [
+        "Blackthorn",
+        "Spellweaver",
+        "Sprykin"
+      ],
+      "hp": [
+        500,
+        900,
+        1620
+      ],
+      "ad": [
+        25,
+        38,
+        56
+      ],
+      "as": 0.7,
+      "armor": 25,
+      "mr": 25,
+      "range": 4,
+      "manaStart": 0,
+      "manaMax": 30,
+      "ability": {
+        "name": "Primordial Burst",
+        "text": "Launch a giant blast at the target that deals 190/285/430 [AP] magic damage, increased to 285/430/640 [AP] if they're below 30% max Health. If they die, permanently gain 2% Ability Power.",
+        "numbers": {
+          "Damage": [
+            190,
+            285,
+            430
+          ],
+          "Low Health Damage": [
+            285,
+            430,
+            640
+          ],
+          "Low Health threshold %": [
+            30,
+            30,
+            30
+          ],
+          "AP gain on kill %": [
+            2,
+            2,
+            2
+          ]
+        },
+        "scaling": {
+          "Damage": "AP",
+          "Low Health Damage": "AP"
+        },
+        "damageType": "magic"
+      },
+      "sources": [
+        "https://op.gg/tft/meta-trends/champion/DA_18_Veigar",
+        "https://metabot.gg/en/TFT/18/champions/range",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-4"
+      ],
+      "conflicts": "",
+      "confidence": "high",
+      "notes": "op.gg patch 18.5. 18.4 notes consistent (190/285/430; 285/430/640)."
+    },
+    {
+      "name": "Xayah",
+      "cost": 1,
+      "traits": [
+        "Elderwood",
+        "Fae",
+        "Rapidfire"
+      ],
+      "hp": [
+        450,
+        810,
+        1458
+      ],
+      "ad": [
+        45,
+        68,
+        101
+      ],
+      "as": 0.7,
+      "armor": 25,
+      "mr": 25,
+      "range": 4,
+      "manaStart": 0,
+      "manaMax": 50,
+      "ability": {
+        "name": "Deadly Plumage",
+        "text": "Gain 50% Attack Speed for the next 5 attacks. These attacks are replaced with feathers that deal 73/108/165 [AD] physical damage and reduce Armor by 2 [AP].",
+        "numbers": {
+          "Damage": [
+            73,
+            108,
+            165
+          ],
+          "Armor Reduction": [
+            2,
+            2,
+            2
+          ],
+          "Attack Speed %": [
+            50,
+            50,
+            50
+          ],
+          "Attacks": [
+            5,
+            5,
+            5
+          ]
+        },
+        "scaling": {
+          "Damage": "AD",
+          "Armor Reduction": "AP"
+        },
+        "damageType": "physical"
+      },
+      "sources": [
+        "https://op.gg/tft/meta-trends/champion/DA_18_Xayah",
+        "https://metabot.gg/en/TFT/18/champions/range",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-4"
+      ],
+      "conflicts": "",
+      "confidence": "high",
+      "notes": "op.gg patch 18.5. AD-scaling percentage not shown; values listed are the AD-scaled totals at base AD. 18.4 notes 68/102/155 => 73/108/165 consistent."
+    },
+    {
+      "name": "Yorick",
+      "cost": 1,
+      "traits": [
+        "Blossom",
+        "Juggernaut",
+        "Summoner"
+      ],
+      "hp": [
+        650,
+        1170,
+        2106
+      ],
+      "ad": [
+        50,
+        75,
+        113
+      ],
+      "as": 0.6,
+      "armor": 35,
+      "mr": 35,
+      "range": 1,
+      "manaStart": 50,
+      "manaMax": 110,
+      "ability": {
+        "name": "Last Rites",
+        "text": "Passive: On death, spawn a Spirit Walker with 330/634/1171 [HP] max Health which immediately taunts, forcing enemies to attack it. Active: Restore 280/325/435 [AP] Health and strike the target, dealing 150/225/340 [AD] physical damage.",
+        "numbers": {
+          "Spirit Walker Health": [
+            330,
+            634,
+            1171
+          ],
+          "Spirit Walker Health (bracket values)": [
+            200,
+            400,
+            750
+          ],
+          "Heal": [
+            280,
+            325,
+            435
+          ],
+          "Damage": [
+            150,
+            225,
+            340
+          ]
+        },
+        "scaling": {
+          "Spirit Walker Health": "HP + flat; op.gg '330 = 130 [HP] + 200 [ 200 / 400 / 750 ]'",
+          "Heal": "AP",
+          "Damage": "AD"
+        },
+        "damageType": "physical"
+      },
+      "sources": [
+        "https://op.gg/tft/meta-trends/champion/DA_18_Yorick",
+        "https://metabot.gg/en/TFT/unit/DA_18_Yorick/overview"
+      ],
+      "conflicts": "",
+      "confidence": "medium",
+      "notes": "op.gg 18.5. Range 1 from metabot unit page (not in metabot table fetches). Metabot unit page shows 2/3-star AD 90/162 vs op.gg 75/113 (metabot unit pages use different star multipliers); op.gg kept."
+    },
+    {
+      "name": "Alistar",
+      "cost": 2,
+      "traits": [
+        "Brawler",
+        "Elderwood"
+      ],
+      "hp": [
+        950,
+        1710,
+        3078
+      ],
+      "ad": [
+        50,
+        75,
+        113
+      ],
+      "as": 0.6,
+      "armor": 45,
+      "mr": 45,
+      "range": 1,
+      "manaStart": 30,
+      "manaMax": 90,
+      "ability": {
+        "name": "Triumphant Roar",
+        "text": "Roar, restoring 306/437/646 [HP][AP] Health, cleansing disables, and healing the two lowest percent Health allies for 80/105/130 [AP]. Then slam the current target, dealing 180/270/420 [AP] magic damage and Stunning them for 1.5 seconds.",
+        "numbers": {
+          "Heal": [
+            306,
+            437,
+            646
+          ],
+          "Heal (bracket values)": [
+            230,
+            300,
+            400
+          ],
+          "Ally Heal": [
+            80,
+            105,
+            130
+          ],
+          "Damage": [
+            180,
+            270,
+            420
+          ],
+          "Stun (s)": [
+            1.5,
+            1.5,
+            1.5
+          ]
+        },
+        "scaling": {
+          "Heal": "HP + AP; op.gg '306 = 76([HP]) + 230([AP]) [ 230 / 300 / 400 ]'",
+          "Ally Heal": "AP",
+          "Damage": "AP"
+        },
+        "damageType": "magic"
+      },
+      "sources": [
+        "https://op.gg/tft/meta-trends/champion/DA_18_Alistar",
+        "https://metabot.gg/en/TFT/18/champions/armor",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-4"
+      ],
+      "conflicts": "",
+      "confidence": "high",
+      "notes": "op.gg patch 18.5. Alistar heal AP 230/300/400 and damage 180/270/420 consistent with official notes."
+    },
+    {
+      "name": "Caitlyn",
+      "cost": 2,
+      "traits": [
+        "Coven",
+        "Hunter"
+      ],
+      "hp": [
+        550,
+        990,
+        1782
+      ],
+      "ad": [
+        50,
+        75,
+        113
+      ],
+      "as": 0.7,
+      "armor": 30,
+      "mr": 30,
+      "range": 4,
+      "manaStart": 0,
+      "manaMax": 3,
+      "ability": {
+        "name": "Headshot",
+        "text": "Passive: Every third attack is replaced with a Headshot that deals 220/330/535 [AD][AP] physical damage.",
+        "numbers": {
+          "Damage": [
+            220,
+            330,
+            535
+          ],
+          "Damage (AD part)": [
+            200,
+            300,
+            490
+          ],
+          "Damage (AP part)": [
+            20,
+            30,
+            45
+          ]
+        },
+        "scaling": {
+          "Damage": "AD + AP; op.gg 'Damage: 220 = 200([AD]) + 20([AP])', AD part [200/300/490], AP part [20/30/45]"
+        },
+        "damageType": "physical"
+      },
+      "sources": [
+        "https://op.gg/tft/meta-trends/champion/DA_18_Caitlyn",
+        "https://metabot.gg/en/TFT/18/champions/range",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-5"
+      ],
+      "conflicts": "",
+      "confidence": "high",
+      "notes": "op.gg 18.5. 'Mana' 0/3 is an attack counter (every third attack), shown by op.gg and metabot (mana 3) alike. 18.5 notes '190/285/470 AD => 200/300/490 AD' consistent."
+    },
+    {
+      "name": "Elise",
+      "cost": 2,
+      "traits": [
+        "Coven",
+        "Vanguard"
+      ],
+      "hp": [
+        900,
+        1620,
+        2916
+      ],
+      "ad": [
+        20,
+        30,
+        45
+      ],
+      "as": 0.65,
+      "armor": 45,
+      "mr": 45,
+      "range": 1,
+      "manaStart": 20,
+      "manaMax": 70,
+      "ability": {
+        "name": "Spider Queen",
+        "text": "Transform into a spider and gain 375/475/725 max Health. Attacks while in Spider Form deal 35/50/80 bonus magic damage and heal for 55/90/170. Subsequent casts grant 175% decaying Attack Speed for 4 seconds.",
+        "numbers": {
+          "Spider Health": [
+            375,
+            475,
+            725
+          ],
+          "Damage": [
+            35,
+            50,
+            80
+          ],
+          "Heal": [
+            55,
+            90,
+            170
+          ],
+          "Decaying Attack Speed %": [
+            175,
+            175,
+            175
+          ]
+        },
+        "scaling": {
+          "Spider Health": "none shown",
+          "Damage": "scaling icon not identifiable (likely AP)",
+          "Heal": "scaling icon not identifiable (likely AP)"
+        },
+        "damageType": "magic"
+      },
+      "sources": [
+        "https://op.gg/tft/meta-trends/champion/DA_18_Elise",
+        "https://metabot.gg/en/TFT/18/champions/armor"
+      ],
+      "conflicts": "",
+      "confidence": "medium",
+      "notes": "op.gg page labelled 'Version: 18.4'. Mana shown 'Active 20 / 70'. Metabot stats agree (mana 70, AD 20, AS 0.65, HP 900, 45/45)."
+    },
+    {
+      "name": "Gromp",
+      "cost": 2,
+      "traits": [
+        "Adaptor",
+        "Riftbeast"
+      ],
+      "hp": [
+        550,
+        990,
+        1782
+      ],
+      "ad": [
+        30,
+        45,
+        68
+      ],
+      "as": 0.7,
+      "armor": 30,
+      "mr": 30,
+      "range": 4,
+      "manaStart": 0,
+      "manaMax": 45,
+      "ability": {
+        "name": "Belchy Bubble",
+        "text": "Adaptor (AP): Belch a noxious bubble at the current target that explodes on the first enemy hit, dealing 225/340/535 [AP] magic damage. Enemies within a 1 hex radius of the explosion take 160/240/375 [AP] magic damage over 3 seconds. Adaptor (AD): Heavily slows the target. Purple Buff: Every 5 seconds, Gromp gains 30% Ability Power.",
+        "numbers": {
+          "Damage": [
+            225,
+            340,
+            535
+          ],
+          "Area Damage": [
+            160,
+            240,
+            375
+          ]
+        },
+        "scaling": {
+          "Damage": "AP",
+          "Area Damage": "AP"
+        },
+        "damageType": "magic"
+      },
+      "sources": [
+        "https://op.gg/tft/meta-trends/champion/DA_Gromp18_AP",
+        "https://metabot.gg/en/TFT/18/champions/range",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-3",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-4"
+      ],
+      "conflicts": "AP Area damage: op.gg (18.5) 160/240/375. Official 18.4 main notes '160/240/360/610 => 160/240/375/625'; 18.4 B-patch 'AP Form Splash Damage: 160/240/375 AP => 180/270/435 AP'; 18.3 notes 'AP Form Ability DoT: 160/240/360 AP => 175/265/410 AP'. Kept op.gg value; unresolved.",
+      "confidence": "low",
+      "notes": "op.gg 18.5. This is the AP-form page (DA_Gromp18_AP)."
+    },
+    {
+      "name": "Kayle",
+      "cost": 2,
+      "traits": [
+        "Rapidfire",
+        "Solar"
+      ],
+      "hp": [
+        550,
+        990,
+        1782
+      ],
+      "ad": [
+        10,
+        15,
+        23
+      ],
+      "as": 0.75,
+      "armor": 30,
+      "mr": 30,
+      "range": 4,
+      "manaStart": 0,
+      "manaMax": 0,
+      "ability": {
+        "name": "Solar Judgement",
+        "text": "Passive: Kayle ascends based on her star level, granting her stacking bonuses. 1st Ascension: Attacks deal 65/97/110 [AP] bonus magic damage. 2nd Ascension: Attacks 20% Shred enemies hit for 2 seconds. 3rd Ascension: Attacks fire waves, dealing 35 [AP] magic damage to all other units hit. 4th Ascension: Gain infinite range. Every 3rd wave is much larger.",
+        "numbers": {
+          "Damage": [
+            65,
+            97,
+            110
+          ],
+          "Secondary Damage": [
+            35,
+            35,
+            35
+          ],
+          "Shred %": [
+            20,
+            20,
+            20
+          ]
+        },
+        "scaling": {
+          "Damage": "AP",
+          "Secondary Damage": "AP"
+        },
+        "damageType": "magic"
+      },
+      "sources": [
+        "https://op.gg/tft/meta-trends/champion/DA_18_Kayle",
+        "https://metabot.gg/en/TFT/18/champions/range",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-4",
+        "https://metabot.gg/en/TFT/unit/DA_18_Kayle/overview"
+      ],
+      "conflicts": "Attack damage: op.gg 10/15/23 vs metabot tables AD 0 and metabot unit page '—' (no value).",
+      "confidence": "medium",
+      "notes": "op.gg 18.5. op.gg shows no mana; metabot unit page mana '0 / 0' (Kayle has a passive-only ability). Damage 65/97/110 per-star pattern is irregular but quoted twice identically. Range from metabot (4). Official 18.4 notes: 'Ability Damage: 62/92/105/115 => 65/97/110/115' confirms 65/97/110."
+    },
+    {
+      "name": "LeBlanc",
+      "cost": 2,
+      "traits": [
+        "Elderwood",
+        "Spellweaver"
+      ],
+      "hp": [
+        550,
+        990,
+        1782
+      ],
+      "ad": [
+        30,
+        45,
+        68
+      ],
+      "as": 0.7,
+      "armor": 30,
+      "mr": 30,
+      "range": 4,
+      "manaStart": 0,
+      "manaMax": 40,
+      "ability": {
+        "name": "Mirror Image",
+        "text": "Passive: After player combat, your strongest LeBlanc has a 10%/15%/40% chance to create a copy of an ally on your board, increased by 4% per takedown. Active: Launch a mirror image at the current target, dealing 260/390/615 magic damage and 100/150/230 to adjacent enemies.",
+        "numbers": {
+          "Copy Chance %": [
+            10,
+            15,
+            40
+          ],
+          "Damage": [
+            260,
+            390,
+            615
+          ],
+          "Secondary Damage": [
+            100,
+            150,
+            230
+          ]
+        },
+        "scaling": {
+          "Damage": "scaling icon not identifiable (likely AP)",
+          "Secondary Damage": "scaling icon not identifiable (likely AP)"
+        },
+        "damageType": "magic"
+      },
+      "sources": [
+        "https://op.gg/tft/meta-trends/champion/DA_18_LeBlanc",
+        "https://metabot.gg/en/TFT/18/champions/range",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-2",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-3",
+        "https://metabot.gg/en/TFT/unit/DA_18_LeBlanc/overview"
+      ],
+      "conflicts": "Copy chance: op.gg (18.5) 10%/15%/40%; official 18.2 mid-patch note (re-listed in 18.3 notes) 'Clone Chance: 10/15/40% => 10/15/30%'. Kept op.gg value; unresolved.",
+      "confidence": "low",
+      "notes": "op.gg 18.5. op.gg did not show mana; mana 0/40 from metabot unit page."
+    },
+    {
+      "name": "Murkwolf",
+      "cost": 2,
+      "traits": [
+        "Ravager",
+        "Riftbeast"
+      ],
+      "hp": [
+        700,
+        1260,
+        2268
+      ],
+      "ad": [
+        50,
+        75,
+        113
+      ],
+      "as": 0.75,
+      "armor": 40,
+      "mr": 40,
+      "range": 1,
+      "manaStart": 0,
+      "manaMax": 40,
+      "ability": {
+        "name": "Rending Claws",
+        "text": "Leap to the lowest Health enemy within 3 Hexes and deal 500/1050/2250 [AD][AP] physical damage. The next 2 attacks gain 175% Attack Speed and deal 65/100/160 [AD] bonus physical damage. Grey Buff: Gain Precision and 25% Critical Strike Chance, increased up to 75% based on missing Health.",
+        "numbers": {
+          "Damage": [
+            500,
+            1050,
+            2250
+          ],
+          "Damage (AP part)": [
+            20,
+            30,
+            45
+          ],
+          "Damage (bracket values in AD breakdown)": [
+            100,
+            150,
+            225
+          ],
+          "Empowered Damage": [
+            65,
+            100,
+            160
+          ],
+          "Empowered Attack Speed %": [
+            175,
+            175,
+            175
+          ]
+        },
+        "scaling": {
+          "Damage": "AD + AP; op.gg 'Damage: 500 = 100 [AD] + 20 [AP] [ 100 / 150 / 225 ]' (breakdown does not sum to 500 as displayed)",
+          "Empowered Damage": "AD"
+        },
+        "damageType": "physical"
+      },
+      "sources": [
+        "https://op.gg/tft/meta-trends/champion/DA_Murkwolf18",
+        "https://metabot.gg/en/TFT/18/champions/range",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-4"
+      ],
+      "conflicts": "Internal op.gg inconsistency: total 500/1050/2250 vs breakdown 100(AD)+20(AP).",
+      "confidence": "low",
+      "notes": "op.gg 18.5; fetched twice with the same text. The AD component may be shown as a percentage elsewhere; unresolved. Official notes Empowered 65/100/160 consistent."
+    },
+    {
+      "name": "Scuttlecrab",
+      "cost": 2,
+      "traits": [
+        "Juggernaut",
+        "Riftbeast"
+      ],
+      "hp": [
+        950,
+        1710,
+        3078
+      ],
+      "ad": [
+        50,
+        75,
+        113
+      ],
+      "as": 0.65,
+      "armor": 45,
+      "mr": 45,
+      "range": 1,
+      "manaStart": 40,
+      "manaMax": 100,
+      "ability": {
+        "name": "Can You Dig It?",
+        "text": "Passive: Attacks are replaced by a dance that deals 50/75/113 [AD] physical damage to all adjacent enemies. Active: Burrow underground, gaining 15% Durability for 3 seconds and healing 325/400/675 [AP] over the duration. Green Buff: When allies fall below 50% Health, they restore 15% max Health.",
+        "numbers": {
+          "Damage": [
+            50,
+            75,
+            112.5
+          ],
+          "Heal": [
+            325,
+            400,
+            675
+          ],
+          "Durability %": [
+            15,
+            15,
+            15
+          ]
+        },
+        "scaling": {
+          "Damage": "AD",
+          "Heal": "AP"
+        },
+        "damageType": "physical"
+      },
+      "sources": [
+        "https://op.gg/tft/meta-trends/champion/DA_Scuttlecrab18",
+        "https://metabot.gg/en/TFT/18/champions/range"
+      ],
+      "conflicts": "",
+      "confidence": "medium",
+      "notes": "op.gg page labelled 'Version: 18.4'. Tooltip bracket shows 112.5 at 3-star while description shows 113. Metabot mana 100 and AS 0.65 agree."
+    },
+    {
+      "name": "Sejuani",
+      "cost": 2,
+      "traits": [
+        "Juggernaut",
+        "Solar"
+      ],
+      "hp": [
+        900,
+        1620,
+        2916
+      ],
+      "ad": [
+        50,
+        75,
+        113
+      ],
+      "as": 0.6,
+      "armor": 45,
+      "mr": 45,
+      "range": 1,
+      "manaStart": 40,
+      "manaMax": 100,
+      "ability": {
+        "name": "Sun's Wrath",
+        "text": "Gain 315/412/567 [HP][AP] Shield for 4 seconds. Then cleave in a cone, dealing 90/135/205 [AP] magic damage and strike in a line, dealing 120/180/270 [AP] magic damage to enemies hit.",
+        "numbers": {
+          "Shield": [
+            315,
+            412,
+            567
+          ],
+          "Shield (bracket values)": [
+            225,
+            250,
+            275
+          ],
+          "Cone Damage": [
+            90,
+            135,
+            205
+          ],
+          "Line Damage": [
+            120,
+            180,
+            270
+          ]
+        },
+        "scaling": {
+          "Shield": "HP + AP; op.gg '315 = 90([HP]) + 225([AP]) [ 225 / 250 / 275 ]'",
+          "Cone Damage": "AP",
+          "Line Damage": "AP"
+        },
+        "damageType": "magic"
+      },
+      "sources": [
+        "https://op.gg/tft/meta-trends/champion/DA_18_Sejuani",
+        "https://metabot.gg/en/TFT/18/champions/armor"
+      ],
+      "conflicts": "",
+      "confidence": "medium",
+      "notes": "op.gg page labelled 'Version: 18.2' (stale; may not reflect 18.5). Metabot stats agree (mana 100, AD 50, AS 0.60, HP 900, 45/45)."
+    },
+    {
+      "name": "Shen",
+      "cost": 2,
+      "traits": [
+        "Defender",
+        "Inferno"
+      ],
+      "hp": [
+        900,
+        1620,
+        2916
+      ],
+      "ad": [
+        50,
+        75,
+        113
+      ],
+      "as": 0.65,
+      "armor": 45,
+      "mr": 45,
+      "range": 1,
+      "manaStart": 30,
+      "manaMax": 90,
+      "ability": {
+        "name": "Ki Barrier",
+        "text": "Grant 375/450/575 [AP] Shield to Shen and 225/300/400 [AP] Shield to a nearby damaged ally for 4 seconds. Both of their next 3 attacks gain 40% Attack Speed and deal 35/55/80 [AP] bonus magic damage.",
+        "numbers": {
+          "Self Shield": [
+            375,
+            450,
+            575
+          ],
+          "Ally Shield": [
+            225,
+            300,
+            400
+          ],
+          "Damage": [
+            35,
+            55,
+            80
+          ],
+          "Attack Speed %": [
+            40,
+            40,
+            40
+          ]
+        },
+        "scaling": {
+          "Self Shield": "AP",
+          "Ally Shield": "AP",
+          "Damage": "AP"
+        },
+        "damageType": "magic"
+      },
+      "sources": [
+        "https://op.gg/tft/meta-trends/champion/DA_18_Shen",
+        "https://metabot.gg/en/TFT/18/champions/armor",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-4"
+      ],
+      "conflicts": "",
+      "confidence": "high",
+      "notes": "op.gg 18.5. 18.4 notes consistent (375/450/575; 225/300/400)."
+    },
+    {
+      "name": "Teemo",
+      "cost": 2,
+      "traits": [
+        "Invoker",
+        "Sprykin"
+      ],
+      "hp": [
+        550,
+        990,
+        1782
+      ],
+      "ad": [
+        35,
+        53,
+        79
+      ],
+      "as": 0.75,
+      "armor": 30,
+      "mr": 30,
+      "range": 4,
+      "manaStart": 0,
+      "manaMax": 50,
+      "ability": {
+        "name": "Fungus Among Us",
+        "text": "Throw 2 clusters of mushrooms that deal 55/82/155 [AP] magic damage to the 3 nearest enemies. Then hurl a giant mushroom that deals 135/200/310 [AP] magic damage to the target. Each cast has a 10%/12%/15% chance to forage an extra mushroom that can be collected for bonus effects. Red: 1 Reroll. Green: 1 Tactician Health. Yellow: 2 XP.",
+        "numbers": {
+          "Damage": [
+            55,
+            82,
+            155
+          ],
+          "Giant Damage": [
+            135,
+            200,
+            310
+          ],
+          "Chance to Forage %": [
+            10,
+            12,
+            15
+          ]
+        },
+        "scaling": {
+          "Damage": "AP",
+          "Giant Damage": "AP"
+        },
+        "damageType": "magic"
+      },
+      "sources": [
+        "https://op.gg/tft/meta-trends/champion/DA_18_Teemo",
+        "https://metabot.gg/en/TFT/18/champions/range",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-4"
+      ],
+      "conflicts": "",
+      "confidence": "medium",
+      "notes": "op.gg page labelled 'Version: 18.4'. Metabot stats agree (mana 50, AD 35, AS 0.75, HP 550, 30/30). 18.4 notes AOE 55/82/130 => 55/82/155 consistent."
+    },
+    {
+      "name": "Warwick",
+      "cost": 2,
+      "traits": [
+        "Blackthorn",
+        "Ravager"
+      ],
+      "hp": [
+        750,
+        1350,
+        2430
+      ],
+      "ad": [
+        45,
+        68,
+        101
+      ],
+      "as": 0.75,
+      "armor": 45,
+      "mr": 45,
+      "range": 1,
+      "manaStart": 0,
+      "manaMax": 40,
+      "ability": {
+        "name": "Jaws of The Beast",
+        "text": "Bite the current target, dealing 230/345/535 [AD] physical damage and healing for 25% [AP] of the damage dealt. Gain 20% Attack Speed for the rest of combat.",
+        "numbers": {
+          "Damage": [
+            230,
+            345,
+            535
+          ],
+          "Heal %": [
+            25,
+            25,
+            25
+          ],
+          "Attack Speed % gained": [
+            20,
+            20,
+            20
+          ]
+        },
+        "scaling": {
+          "Damage": "AD",
+          "Heal %": "AP"
+        },
+        "damageType": "physical"
+      },
+      "sources": [
+        "https://op.gg/tft/meta-trends/champion/DA_18_Warwick",
+        "https://metabot.gg/en/TFT/18/champions/armor",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-4"
+      ],
+      "conflicts": "",
+      "confidence": "high",
+      "notes": "op.gg 18.5. Official notes 230/345/535 and 25% consistent."
+    },
+    {
+      "name": "Yunara",
+      "cost": 2,
+      "traits": [
+        "Blossom",
+        "Executioner"
+      ],
+      "hp": [
+        550,
+        990,
+        1782
+      ],
+      "ad": [
+        42,
+        63,
+        95
+      ],
+      "as": 0.75,
+      "armor": 30,
+      "mr": 30,
+      "range": 4,
+      "manaStart": 0,
+      "manaMax": 35,
+      "ability": {
+        "name": "Cultivation of Spirit",
+        "text": "Dash, then launch an orb at the current target that deals 170/255/395 [AD][AP] physical damage and splits, dealing 60/89/138 [AD][AP] physical damage to 2 nearby enemies.",
+        "numbers": {
+          "Damage": [
+            170,
+            255,
+            395
+          ],
+          "Damage (AD part)": [
+            160,
+            240,
+            370
+          ],
+          "Damage (AP part)": [
+            10,
+            15,
+            25
+          ],
+          "Secondary Damage": [
+            60,
+            89,
+            138
+          ],
+          "Secondary Damage % of Damage": [
+            35,
+            35,
+            35
+          ]
+        },
+        "scaling": {
+          "Damage": "AD + AP; op.gg '170 = 160([AD]) + 10([AP]) [ 160 / 240 / 370 ]', AP part [10/15/25]",
+          "Secondary Damage": "35% of Damage"
+        },
+        "damageType": "physical"
+      },
+      "sources": [
+        "https://op.gg/tft/meta-trends/champion/DA_18_Yunara",
+        "https://metabot.gg/en/TFT/18/champions/range"
+      ],
+      "conflicts": "",
+      "confidence": "medium",
+      "notes": "op.gg page labelled 'Version: 18.2' (stale). Metabot stats agree (mana 35, AD 42, AS 0.75, HP 550, 30/30)."
+    },
+    {
+      "name": "Azir",
+      "cost": 3,
+      "traits": [
+        "Blackthorn",
+        "Executioner",
+        "Summoner"
+      ],
+      "hp": [
+        650,
+        1170,
+        2106
+      ],
+      "ad": [
+        30,
+        45,
+        68
+      ],
+      "as": 0.75,
+      "armor": 35,
+      "mr": 35,
+      "range": 4,
+      "manaStart": 0,
+      "manaMax": 35,
+      "ability": {
+        "name": "Arise!",
+        "text": "Gain 150% Attack Speed and summon 2 soldiers for the next 6 attacks. These attacks are replaced by commands which direct each soldier to deal 43/65/105 [AP] magic damage per attack.",
+        "numbers": {
+          "Damage": [
+            43,
+            65,
+            105
+          ],
+          "Attack Speed %": [
+            150,
+            150,
+            150
+          ],
+          "Soldiers": [
+            2,
+            2,
+            2
+          ],
+          "Attacks": [
+            6,
+            6,
+            6
+          ]
+        },
+        "scaling": {
+          "Damage": "AP"
+        },
+        "damageType": "magic"
+      },
+      "sources": [
+        "https://op.gg/tft/meta-trends/champion/DA_18_Azir",
+        "https://metabot.gg/en/TFT/18/champions/range",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-5"
+      ],
+      "conflicts": "",
+      "confidence": "high",
+      "notes": "op.gg 18.5. 18.5 notes '46/69/110 AP => 43/65/105 AP' consistent."
+    },
+    {
+      "name": "Cassiopeia",
+      "cost": 3,
+      "traits": [
+        "Coven",
+        "Spellweaver"
+      ],
+      "hp": [
+        650,
+        1170,
+        2106
+      ],
+      "ad": [
+        30,
+        45,
+        68
+      ],
+      "as": 0.75,
+      "armor": 35,
+      "mr": 35,
+      "range": 4,
+      "manaStart": 0,
+      "manaMax": 30,
+      "ability": {
+        "name": "Noxious Blast",
+        "text": "Poison the target and the nearest non-poisoned enemy, dealing 425/630/1020 [AP] magic damage over 15 seconds. Poisons stack.",
+        "numbers": {
+          "Damage": [
+            425,
+            630,
+            1020
+          ],
+          "Duration (s)": [
+            15,
+            15,
+            15
+          ]
+        },
+        "scaling": {
+          "Damage": "AP"
+        },
+        "damageType": "magic"
+      },
+      "sources": [
+        "https://op.gg/tft/meta-trends/champion/DA_18_Cassiopeia",
+        "https://metabot.gg/en/TFT/18/champions/range",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-3"
+      ],
+      "conflicts": "",
+      "confidence": "high",
+      "notes": "op.gg 18.5. Official notes 425/630/1020 consistent."
+    },
+    {
+      "name": "Diana",
+      "cost": 3,
+      "traits": [
+        "Lunar",
+        "Ravager",
+        "Vanguard"
+      ],
+      "hp": [
+        850,
+        1530,
+        2754
+      ],
+      "ad": [
+        30,
+        45,
+        68
+      ],
+      "as": 0.8,
+      "armor": 50,
+      "mr": 50,
+      "range": 1,
+      "manaStart": 0,
+      "manaMax": 30,
+      "ability": {
+        "name": "Pale Barrier",
+        "text": "Gain 150/275/500 shield for 2 seconds and send out 6 moonlight orbs spread among enemies within 2 hexes, each dealing 75/115/180 [AP] magic damage.",
+        "numbers": {
+          "Damage": [
+            75,
+            115,
+            180
+          ],
+          "Shield": [
+            150,
+            275,
+            500
+          ],
+          "Orbs": [
+            6,
+            6,
+            6
+          ]
+        },
+        "scaling": {
+          "Damage": "AP",
+          "Shield": "no scaling icon shown"
+        },
+        "damageType": "magic"
+      },
+      "sources": [
+        "https://op.gg/tft/meta-trends/champion/DA_18_Diana",
+        "https://metabot.gg/en/TFT/18/champions/armor",
+        "https://metabot.gg/fr_FR/TFT/18/champions/attack-speed",
+        "https://metabot.gg/de_DE/TFT/18/champions/placement",
+        "https://metabot.gg/en/TFT/unit/DA_18_Diana/overview"
+      ],
+      "conflicts": "Max mana: op.gg (18.5) 30, metabot unit page '0 / 30', metabot fr attack-speed table 30; metabot en armor table and de placement table 40. Recorded 0/30 (3 of 5 readings; no patch-note change found).",
+      "confidence": "medium",
+      "notes": "op.gg 18.5; recorded 30. Check 18.5 patch notes for a Diana mana change. No Diana mana change found in official 18.2-18.5 notes."
+    },
+    {
+      "name": "Fiddlesticks",
+      "cost": 3,
+      "traits": [
+        "Defender",
+        "Flora Fatalis",
+        "Spellweaver"
+      ],
+      "hp": [
+        1000,
+        1800,
+        3240
+      ],
+      "ad": [
+        50,
+        75,
+        113
+      ],
+      "as": 0.65,
+      "armor": 55,
+      "mr": 55,
+      "range": 1,
+      "manaStart": 30,
+      "manaMax": 90,
+      "ability": {
+        "name": "Harvest",
+        "text": "Reduce the Magic Resist of the 3 nearest enemies by 10. Then drain life from them over 2 seconds, healing for 410/485/850 Health and dealing 70/105/170 magic damage to each over the duration.",
+        "numbers": {
+          "Heal": [
+            410,
+            485,
+            850
+          ],
+          "Damage": [
+            70,
+            105,
+            170
+          ],
+          "MR Reduction": [
+            10,
+            10,
+            10
+          ]
+        },
+        "scaling": {
+          "Heal": "scaling icon not identifiable (likely AP)",
+          "Damage": "scaling icon not identifiable (likely AP)"
+        },
+        "damageType": "magic"
+      },
+      "sources": [
+        "https://op.gg/tft/meta-trends/champion/DA_Fiddlesticks18",
+        "https://metabot.gg/en/TFT/18/champions/armor"
+      ],
+      "conflicts": "",
+      "confidence": "medium",
+      "notes": "op.gg 18.5. Mana from ability block 'Active 30 / 90'; metabot mana 90 agrees."
+    },
+    {
+      "name": "Hecarim",
+      "cost": 3,
+      "traits": [
+        "Elderwood",
+        "Vanguard"
+      ],
+      "hp": [
+        1100,
+        1980,
+        3564
+      ],
+      "ad": [
+        50,
+        75,
+        113
+      ],
+      "as": 0.65,
+      "armor": 50,
+      "mr": 50,
+      "range": 1,
+      "manaStart": 50,
+      "manaMax": 110,
+      "ability": {
+        "name": "Spirit of Dread",
+        "text": "Gain 50 Armor and Magic Resist for 3 seconds and restore 375/475/685 [AP] Health over the duration. Launch spectral riders at the 3 nearest enemies, dealing 80/120/195 [AP] magic damage and Stunning them for 1.5/1.5/1.75 seconds.",
+        "numbers": {
+          "Heal": [
+            375,
+            475,
+            685
+          ],
+          "Damage": [
+            80,
+            120,
+            195
+          ],
+          "Stun Duration": [
+            1.5,
+            1.5,
+            1.75
+          ],
+          "Bonus Armor/MR": [
+            50,
+            50,
+            50
+          ]
+        },
+        "scaling": {
+          "Heal": "AP",
+          "Damage": "AP"
+        },
+        "damageType": "magic"
+      },
+      "sources": [
+        "https://op.gg/tft/meta-trends/champion/DA_18_Hecarim",
+        "https://metabot.gg/en/TFT/18/champions/range",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-4"
+      ],
+      "conflicts": "",
+      "confidence": "medium",
+      "notes": "op.gg page labelled 18.4. Metabot stats agree (mana 110, AD 50, AS 0.65, HP 1100, 50/50). Official 18.4 notes 'Mana: 30/110 => 50/110' consistent."
+    },
+    {
+      "name": "Kha'Zix",
+      "cost": 3,
+      "traits": [
+        "Rival"
+      ],
+      "hp": [
+        950,
+        1710,
+        3078
+      ],
+      "ad": [
+        40,
+        60,
+        90
+      ],
+      "as": 0.85,
+      "armor": 55,
+      "mr": 55,
+      "range": 1,
+      "manaStart": 0,
+      "manaMax": 25,
+      "ability": {
+        "name": "Taste Their Fear",
+        "text": "Leap to the farthest enemy within 3 Hexes, dealing 230/310/450 [AP] magic damage. If they have no adjacent allies, deal 250/350/530 [AP] magic damage instead and gain 10 mana. {Augment.Variant.RivalsAugment.AbilityTooltip}",
+        "numbers": {
+          "Damage": [
+            230,
+            310,
+            450
+          ],
+          "Isolated Damage": [
+            250,
+            350,
+            530
+          ],
+          "Mana refund (isolated)": [
+            10,
+            10,
+            10
+          ]
+        },
+        "scaling": {
+          "Damage": "AP",
+          "Isolated Damage": "AP"
+        },
+        "damageType": "magic"
+      },
+      "sources": [
+        "https://op.gg/tft/meta-trends/champion/DA_18_KhaZix",
+        "https://metabot.gg/en/TFT/18/champions/armor",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-5",
+        "https://topmeta.gg/en/update/tft-patch-18-5c/",
+        "https://hexkey.app/patches/18.5"
+      ],
+      "conflicts": "Ability damage: op.gg unit page shows 18.5 launch values 250/345/500 (isolated 280/390/590); official 18.5 notes Oct 27 mid-patch (18.5c), topmeta 18.5c and hexkey all give 230/310/450 (isolated 250/350/530). Recorded the 18.5c values.",
+      "confidence": "medium",
+      "notes": "op.gg 18.5. op.gg lists only the 'Rival' trait. Tooltip contains an unrendered placeholder for a Rivals augment variant."
+    },
+    {
+      "name": "Kog'Maw",
+      "cost": 3,
+      "traits": [
+        "Adaptor",
+        "Caustic",
+        "Invoker"
+      ],
+      "hp": [
+        650,
+        1170,
+        2106
+      ],
+      "ad": [
+        40,
+        60,
+        90
+      ],
+      "as": 0.8,
+      "armor": 35,
+      "mr": 35,
+      "range": 4,
+      "manaStart": 15,
+      "manaMax": 55,
+      "ability": {
+        "name": "Raining Artillery",
+        "text": "Adaptor (AD): Launch acid at the target and the other nearest enemy, dealing 165/250/425 [AD][AP] physical damage. Enemies below 50% max Health take 231/350/595 [AD][AP] physical damage instead. Adaptor (AP): Damages enemies over time.",
+        "numbers": {
+          "Damage": [
+            165,
+            250,
+            425
+          ],
+          "Damage (AD part)": [
+            145,
+            220,
+            375
+          ],
+          "Damage (AP part)": [
+            20,
+            30,
+            50
+          ],
+          "Low Health Damage": [
+            231,
+            350,
+            595
+          ],
+          "Low Health Damage % of Damage": [
+            140,
+            140,
+            140
+          ]
+        },
+        "scaling": {
+          "Damage": "AD + AP; op.gg '165 = 145([AD]) + 20([AP]) [ 145 / 220 / 375 ]', AP part [20/30/50]",
+          "Low Health Damage": "140% of Damage"
+        },
+        "damageType": "physical"
+      },
+      "sources": [
+        "https://op.gg/tft/meta-trends/champion/DA_KogMaw18_AD",
+        "https://metabot.gg/en/TFT/18/champions/range"
+      ],
+      "conflicts": "",
+      "confidence": "high",
+      "notes": "op.gg 18.5, AD-form page (DA_KogMaw18_AD)."
+    },
+    {
+      "name": "Krug",
+      "cost": 3,
+      "traits": [
+        "Brawler",
+        "Riftbeast"
+      ],
+      "hp": [
+        1100,
+        1980,
+        3564
+      ],
+      "ad": [
+        55,
+        83,
+        124
+      ],
+      "as": 0.6,
+      "armor": 40,
+      "mr": 40,
+      "range": 1,
+      "manaStart": 80,
+      "manaMax": 135,
+      "ability": {
+        "name": "Rock and Roll",
+        "text": "Passive: On death, split into two Kruglettes with 182/338/608 [HP] Health which immediately taunt, forcing enemies to attack them. Active: Gain 175/225/325 [AP] max Health, then roll into the target, dealing 223/358/620 [AD][HP] damage. Slate Buff: On death, Krug and Kruglettes Shield allies for 8% max Health.",
+        "numbers": {
+          "Kruglette Health": [
+            182,
+            338,
+            608
+          ],
+          "Kruglette Health (bracket values)": [
+            50,
+            100,
+            180
+          ],
+          "Bonus Health": [
+            175,
+            225,
+            325
+          ],
+          "Damage": [
+            223,
+            358,
+            620
+          ],
+          "Damage (bracket values)": [
+            135,
+            200,
+            335
+          ],
+          "Slate Buff Shield % max HP": [
+            8,
+            8,
+            8
+          ]
+        },
+        "scaling": {
+          "Kruglette Health": "HP + flat; op.gg '182 = 132 [HP] + 50 [ 50 / 100 / 180 ]'",
+          "Bonus Health": "AP",
+          "Damage": "HP + AD; op.gg '223 = 88 [HP] + 135 [AD] [ 135 / 200 / 335 ]'"
+        },
+        "damageType": "physical"
+      },
+      "sources": [
+        "https://op.gg/tft/meta-trends/champion/DA_Krug18",
+        "https://metabot.gg/en/TFT/18/champions/armor"
+      ],
+      "conflicts": "",
+      "confidence": "medium",
+      "notes": "op.gg page labelled 'Version: 18.3' (stale). Damage type word not shown in description ('dealing ... damage'); 'physical' is my reading from AD scaling only - low confidence on damageType. Metabot stats agree (mana 135, AD 55, AS 0.60, HP 1100, 40/40)."
+    },
+    {
+      "name": "Mama Beak",
+      "cost": 3,
+      "traits": [
+        "Rapidfire",
+        "Riftbeast",
+        "Summoner"
+      ],
+      "hp": [
+        650,
+        1170,
+        2106
+      ],
+      "ad": [
+        55,
+        83,
+        124
+      ],
+      "as": 0.75,
+      "armor": 35,
+      "mr": 35,
+      "range": 4,
+      "manaStart": 20,
+      "manaMax": 60,
+      "ability": {
+        "name": "Flock Family",
+        "text": "Summon 4 untargetable Tiny Beaks nearby for 5 [AP] seconds. Whenever Mama Beak attacks, Tiny Beaks attack the same enemy, dealing 20/30/50 [AD] physical damage. Orange Buff: Dealing physical damage reduces enemy Armor by 2.",
+        "numbers": {
+          "Duration (s)": [
+            5,
+            5,
+            5
+          ],
+          "Damage": [
+            20,
+            30,
+            50
+          ],
+          "Tiny Beaks": [
+            4,
+            4,
+            4
+          ]
+        },
+        "scaling": {
+          "Duration (s)": "AP",
+          "Damage": "AD"
+        },
+        "damageType": "physical"
+      },
+      "sources": [
+        "https://op.gg/tft/meta-trends/champion/DA_CrimsonRaptor18",
+        "https://metabot.gg/en/TFT/18/champions/range",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-4",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-5"
+      ],
+      "conflicts": "Base AD: op.gg (18.5) and metabot 55 vs official 18.4 B-patch 'Mama Beak Base AD: 55 => 60'. Kept 55; unresolved. Ability damage 20/30/50 confirmed by 18.5 notes (22/33/52 => 20/30/50).",
+      "confidence": "medium",
+      "notes": "op.gg 18.5."
+    },
+    {
+      "name": "Master Yi",
+      "cost": 3,
+      "traits": [
+        "Adaptor",
+        "Blossom"
+      ],
+      "hp": [
+        850,
+        1530,
+        2754
+      ],
+      "ad": [
+        63,
+        95,
+        142
+      ],
+      "as": 0.8,
+      "armor": 55,
+      "mr": 55,
+      "range": 1,
+      "manaStart": 0,
+      "manaMax": 3,
+      "ability": {
+        "name": "Wuju Style",
+        "text": "Every third attack is a Double Strike. On takedown, gain a burst of movement speed. Adaptor (AD): Double Strikes grant 15% [AP] stacking Attack Speed. Adaptor (AP): Double Strikes deal bonus damage and heal.",
+        "numbers": {
+          "Attack Speed % per Double Strike": [
+            15,
+            15,
+            15
+          ],
+          "Attack Speed (AP part) %": [
+            3,
+            3,
+            3
+          ]
+        },
+        "scaling": {
+          "Attack Speed % per Double Strike": "op.gg 'Attack Speed: 15% = 12% + 3%([AP]) [3% / 3% / 3%]'"
+        },
+        "damageType": "physical"
+      },
+      "sources": [
+        "https://op.gg/tft/meta-trends/champion/DA_18_MasterYi_AD",
+        "https://metabot.gg/en/TFT/18/champions/armor",
+        "https://metabot.gg/fr_FR/TFT/18/champions/attack-speed",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-5"
+      ],
+      "conflicts": "AD: op.gg 63/95/142 and metabot en armor page 63 vs metabot fr attack-speed page 62.",
+      "confidence": "medium",
+      "notes": "op.gg 18.5, AD-form page. AP-form values not retrieved. 'Mana' 0/3 is an attack counter. damageType 'physical' is my reading (attacks), not stated. 18.5 notes: AD form starting AD 60 => 63; AP form ability damage 125/190/285 => 135/200/320 AP."
+    },
+    {
+      "name": "Rammus",
+      "cost": 3,
+      "traits": [
+        "Defender",
+        "Sprykin"
+      ],
+      "hp": [
+        1100,
+        1980,
+        3564
+      ],
+      "ad": [
+        50,
+        75,
+        113
+      ],
+      "as": 0.6,
+      "armor": 50,
+      "mr": 50,
+      "range": 1,
+      "manaStart": 30,
+      "manaMax": 80,
+      "ability": {
+        "name": "Defensive Ball Curl",
+        "text": "Taunt, forcing enemies to attack this champion. For 4 seconds, gain 400/550/700 Shield and 60 Armor and Magic Resist. When the Shield breaks, deal 50/75/120 physical damage to enemies in 2 Hexes.",
+        "numbers": {
+          "Shield": [
+            400,
+            550,
+            700
+          ],
+          "Damage": [
+            50,
+            75,
+            120
+          ],
+          "Damage (bracket %)": [
+            50,
+            75,
+            120
+          ],
+          "Bonus Armor/MR": [
+            60,
+            60,
+            60
+          ]
+        },
+        "scaling": {
+          "Shield": "scaling icon not identifiable",
+          "Damage": "op.gg 'Damage: 50 = 25() + 25() [50% / 75% / 120%]' - two unnamed scaling icons (possibly Armor and MR)"
+        },
+        "damageType": "physical"
+      },
+      "sources": [
+        "https://op.gg/tft/meta-trends/champion/DA_18_Rammus",
+        "https://metabot.gg/en/TFT/18/champions/range",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-3",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-4"
+      ],
+      "conflicts": "Shield: op.gg (stale 18.3 page) 400/550/725; official 18.4 notes 'Shield: 400/550/725 AP => 400/550/700 AP'. Recorded 700 at 3-star.",
+      "confidence": "low",
+      "notes": "op.gg page labelled 'Version: 18.3' (stale). Scaling icons not identifiable. Metabot stats agree (mana 80, AD 50, AS 0.60, HP 1100, 50/50)."
+    },
+    {
+      "name": "Rengar",
+      "cost": 3,
+      "traits": [
+        "Rival"
+      ],
+      "hp": [
+        900,
+        1620,
+        2916
+      ],
+      "ad": [
+        60,
+        90,
+        135
+      ],
+      "as": 0.75,
+      "armor": 55,
+      "mr": 55,
+      "range": 1,
+      "manaStart": 10,
+      "manaMax": 50,
+      "ability": {
+        "name": "Savagery",
+        "text": "Jump to the lowest percent Health enemy within 3 hexes and stab them, dealing 255/385/650 [AD] physical damage. Then heal for 60/90/90 [AP], increased to up to 120/180/180 [AP] based on their missing Health. {Augment.Variant.RivalsAugment.AbilityTooltip}",
+        "numbers": {
+          "Damage": [
+            255,
+            385,
+            650
+          ],
+          "Minimum Heal": [
+            60,
+            90,
+            90
+          ],
+          "Maximum Heal": [
+            120,
+            180,
+            180
+          ]
+        },
+        "scaling": {
+          "Damage": "AD",
+          "Minimum Heal": "AP",
+          "Maximum Heal": "AP"
+        },
+        "damageType": "physical"
+      },
+      "sources": [
+        "https://op.gg/tft/meta-trends/champion/DA_18_Rengar",
+        "https://metabot.gg/en/TFT/18/champions/armor",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-4"
+      ],
+      "conflicts": "",
+      "confidence": "medium",
+      "notes": "op.gg 18.5. op.gg AS/armor layout ambiguous; values agree with metabot (AS 0.75, armor 55, MR 55). Heal 3-star equals 2-star (60/90/90, 120/180/180) as shown - unusual. 18.4 notes 255/385/615 => 255/385/650 consistent."
+    },
+    {
+      "name": "Tristana",
+      "cost": 3,
+      "traits": [
+        "Fae",
+        "Hunter",
+        "Sprykin"
+      ],
+      "hp": [
+        650,
+        1170,
+        2106
+      ],
+      "ad": [
+        55,
+        83,
+        124
+      ],
+      "as": 0.75,
+      "armor": 35,
+      "mr": 35,
+      "range": 4,
+      "manaStart": 0,
+      "manaMax": 50,
+      "ability": {
+        "name": "Explosive Charge",
+        "text": "Attach an explosive charge to the target that lasts 4 seconds. While active, gain infinite range and 60% [AP] Attack Speed. After the duration, the charge explodes and splits damage between all enemies within 2 hexes, dealing 175/265/420 [AD] physical damage + 12/18/28 [AD] for each attack while casting. If an enemy with an explosive charge on them dies, it attaches to Tristana's new target.",
+        "numbers": {
+          "Attack Speed %": [
+            60,
+            60,
+            60
+          ],
+          "Attack Speed (AP part) %": [
+            20,
+            20,
+            20
+          ],
+          "Damage": [
+            175,
+            265,
+            420
+          ],
+          "Bonus Damage Per Attack": [
+            12,
+            18,
+            28
+          ],
+          "Duration (s)": [
+            4,
+            4,
+            4
+          ]
+        },
+        "scaling": {
+          "Attack Speed %": "op.gg '60% = 40% + 20%[AP] [20% / 20% / 20%]'",
+          "Damage": "AD",
+          "Bonus Damage Per Attack": "AD"
+        },
+        "damageType": "physical"
+      },
+      "sources": [
+        "https://op.gg/tft/meta-trends/champion/DA_18_Tristana",
+        "https://metabot.gg/en/TFT/18/champions/range",
+        "https://metabot.gg/fr_FR/TFT/18/champions/attack-speed",
+        "https://metabot.gg/de_DE/TFT/18/champions/placement",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-4",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-5",
+        "https://topmeta.gg/en/update/tft-patch-18-5/",
+        "https://hexkey.app/patches/18.5"
+      ],
+      "conflicts": "Max mana: op.gg (stale page labelled 18.2), metabot en range and fr pages say 60; metabot de placement page and official 18.5 notes ('Mana Buff: 0/60 => 0/50') say 50 -> recorded 50. Ability damage: op.gg shows 160/240/385 and bonus per attack 10/15/25 (stale); official 18.4 notes '160/240/385 AD => 175/265/420 AD' and 18.5 notes '10/15/25 AD => 12/18/28 AD' -> recorded patch-note values.",
+      "confidence": "medium",
+      "notes": "op.gg page labelled 'Version: 18.2' (stale); ability text otherwise from op.gg."
+    },
+    {
+      "name": "Vi",
+      "cost": 3,
+      "traits": [
+        "Juggernaut",
+        "Primal"
+      ],
+      "hp": [
+        1100,
+        1980,
+        3564
+      ],
+      "ad": [
+        45,
+        68,
+        101
+      ],
+      "as": 0.75,
+      "armor": 50,
+      "mr": 50,
+      "range": 1,
+      "manaStart": 0,
+      "manaMax": 60,
+      "ability": {
+        "name": "Furious Fists",
+        "text": "Passive: On attack, restore 22/40/71 [HP] Health. Active: Unleash a primal roar, restoring 200/265/360 [AP] Health. Then gain 85%/100%/125% Attack Speed, 15% Durability, and is Unstoppable for 3 seconds.",
+        "numbers": {
+          "Passive Heal": [
+            22,
+            40,
+            71
+          ],
+          "Passive Heal % max HP": [
+            2,
+            2,
+            2
+          ],
+          "Heal": [
+            200,
+            265,
+            360
+          ],
+          "Attack Speed %": [
+            85,
+            100,
+            125
+          ],
+          "Durability %": [
+            15,
+            15,
+            15
+          ],
+          "Duration (s)": [
+            3,
+            3,
+            3
+          ]
+        },
+        "scaling": {
+          "Passive Heal": "HP; op.gg '22([HP]) [2% / 2% / 2%]'",
+          "Heal": "AP"
+        },
+        "damageType": "none"
+      },
+      "sources": [
+        "https://op.gg/tft/meta-trends/champion/DA_Vi18",
+        "https://metabot.gg/en/TFT/18/champions/armor"
+      ],
+      "conflicts": "",
+      "confidence": "high",
+      "notes": "op.gg 18.5."
+    },
+    {
+      "name": "Ahri",
+      "cost": 4,
+      "traits": [
+        "Blossom",
+        "Spellweaver"
+      ],
+      "hp": [
+        850,
+        1530,
+        3254
+      ],
+      "ad": [
+        40,
+        60,
+        90
+      ],
+      "as": 0.8,
+      "armor": 40,
+      "mr": 40,
+      "range": 4,
+      "manaStart": 20,
+      "manaMax": 100,
+      "ability": {
+        "name": "Spirit Bomb",
+        "text": "Launch a spirit bomb at the location within 4 hexes that has the most surrounding enemies. It deals 455/685/3500 [AP] magic damage to enemies in a 3 hex radius, reduced by 21% per hex away from the epicenter.",
+        "numbers": {
+          "Damage": [
+            455,
+            685,
+            3500
+          ],
+          "Falloff % per hex": [
+            21,
+            21,
+            21
+          ]
+        },
+        "scaling": {
+          "Damage": "AP"
+        },
+        "damageType": "magic"
+      },
+      "sources": [
+        "https://op.gg/tft/meta-trends/champion/DA_18_Ahri",
+        "https://metabot.gg/en/TFT/18/champions/range"
+      ],
+      "conflicts": "",
+      "confidence": "medium",
+      "notes": "op.gg page labelled 18.2 (stale). 3-star HP 3254 as shown on op.gg (same pattern as Aphelios)."
+    },
+    {
+      "name": "Amumu",
+      "cost": 4,
+      "traits": [
+        "Inferno",
+        "Juggernaut"
+      ],
+      "hp": [
+        1300,
+        2340,
+        4712
+      ],
+      "ad": [
+        70,
+        105,
+        158
+      ],
+      "as": 0.7,
+      "armor": 60,
+      "mr": 60,
+      "range": 1,
+      "manaStart": 30,
+      "manaMax": 125,
+      "ability": {
+        "name": "Tantrum",
+        "text": "Passive: Every second, restore 33/59/172 [AP][HP] Health and deal 12/18/150 [AP] magic damage to enemies within 1 hex. Active: Deal 100/150/2000 [AP] magic damage to enemies within 2 hexes and Stun them for 1/1/6 seconds, increased to 3/3/13 seconds if the target is Burning.",
+        "numbers": {
+          "Heal per second": [
+            33,
+            59,
+            172
+          ],
+          "Heal (bracket values)": [
+            20,
+            25,
+            100
+          ],
+          "Passive Damage": [
+            12,
+            18,
+            150
+          ],
+          "Damage": [
+            100,
+            150,
+            2000
+          ],
+          "Stun Duration": [
+            1,
+            1,
+            6
+          ],
+          "Stun Duration vs Burning": [
+            3,
+            3,
+            13
+          ]
+        },
+        "scaling": {
+          "Heal per second": "HP + AP; op.gg '33 = 32.5([HP]) + 20([AP]) [ 20 / 25 / 100 ]'",
+          "Passive Damage": "AP",
+          "Damage": "AP"
+        },
+        "damageType": "magic"
+      },
+      "sources": [
+        "https://op.gg/tft/meta-trends/champion/DA_Amumu18",
+        "https://metabot.gg/fr_FR/TFT/18/champions/attack-speed",
+        "https://metabot.gg/de_DE/TFT/18/champions/placement"
+      ],
+      "conflicts": "",
+      "confidence": "medium",
+      "notes": "op.gg page labelled 'Version: 18.2' (stale). Metabot stats agree (mana 125, AD 70, AS 0.70, HP 1300, 60/60)."
+    },
+    {
+      "name": "Aphelios",
+      "cost": 4,
+      "traits": [
+        "Lunar",
+        "Rapidfire"
+      ],
+      "hp": [
+        850,
+        1530,
+        3254
+      ],
+      "ad": [
+        60,
+        90,
+        135
+      ],
+      "as": 0.8,
+      "armor": 40,
+      "mr": 40,
+      "range": 4,
+      "manaStart": 20,
+      "manaMax": 70,
+      "ability": {
+        "name": "Moonlight's Onslaught",
+        "text": "Equip Severum and swipe the target 5 [AS] times over 2 seconds, each dealing 70/105/850 [AD] physical damage. After the onslaught finishes, fire a blast that deals 490/735/5225 [AD][AP] physical damage split among all enemies in a 2 Hex radius.",
+        "numbers": {
+          "Swipes": [
+            5,
+            5,
+            5
+          ],
+          "Swipe Damage": [
+            70,
+            105,
+            850
+          ],
+          "Blast Damage": [
+            490,
+            735,
+            5225
+          ],
+          "Blast Damage (AD part)": [
+            450,
+            675,
+            5000
+          ],
+          "Blast Damage (AP part)": [
+            40,
+            60,
+            225
+          ]
+        },
+        "scaling": {
+          "Swipes": "op.gg '5 = 5 + 1 per 20% bonus [AS]'",
+          "Swipe Damage": "AD",
+          "Blast Damage": "AD + AP; op.gg '490 = 450([AD]) + 40([AP]) [ 450 / 675 / 5000 ]', AP part [40/60/225]"
+        },
+        "damageType": "physical"
+      },
+      "sources": [
+        "https://op.gg/tft/meta-trends/champion/DA_18_Aphelios",
+        "https://metabot.gg/en/TFT/18/champions/range"
+      ],
+      "conflicts": "",
+      "confidence": "high",
+      "notes": "op.gg 18.5."
+    },
+    {
+      "name": "Brambleback",
+      "cost": 4,
+      "traits": [
+        "Ravager",
+        "Riftbeast"
+      ],
+      "hp": [
+        1100,
+        1980,
+        4064
+      ],
+      "ad": [
+        120,
+        180,
+        270
+      ],
+      "as": 0.55,
+      "armor": 65,
+      "mr": 65,
+      "range": 1,
+      "manaStart": 0,
+      "manaMax": 40,
+      "ability": {
+        "name": "Crimson Fury",
+        "text": "Passive: When the target dies, leap at the next target, dealing 135/205/1000 physical damage. Active: Gain 100%/100%/300% Attack Damage for 8 seconds. During this time ignore 50%/50%/85% Armor. Red Buff: Attacks 1% Burn enemies and heal Brambleback for 5% max Health. [Hotfix notes: Red Buff on-hit healing 5% => 4% (18.5b, Oct 22); Armor Ignore base 25% => 30%, AP part 25% => 10% (18.5c, Oct 27).]",
+        "numbers": {
+          "Leap Damage": [
+            135,
+            205,
+            1000
+          ],
+          "Bonus Attack Damage %": [
+            100,
+            100,
+            300
+          ],
+          "Duration (s)": [
+            8,
+            8,
+            8
+          ],
+          "Red Buff heal % max HP": [
+            4,
+            4,
+            4
+          ]
+        },
+        "scaling": {
+          "Leap Damage": "scaling icon not identifiable (likely AD)",
+          "Bonus Attack Damage %": "none shown",
+          "Armor Ignore %": "scaling icon not identifiable",
+          "Armor Ignore": "18.5c official notes: 'Armor Ignore (AP): 25% => 10%', 'Armor Ignore Base: 25% => 30%' (i.e. 30% + 10% AP). op.gg page (pre-hotfix) shows 'ignore 50%/50%/85% Armor'."
+        },
+        "damageType": "physical"
+      },
+      "sources": [
+        "https://op.gg/tft/meta-trends/champion/DA_Brambleback18",
+        "https://metabot.gg/en/TFT/18/champions/armor",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-5",
+        "https://topmeta.gg/en/update/tft-patch-18-5b/",
+        "https://topmeta.gg/en/update/tft-patch-18-5c/",
+        "https://hexkey.app/patches/18.5"
+      ],
+      "conflicts": "op.gg page text shows Red Buff heal 5% and armor ignore 50%/50%/85%; 18.5b/18.5c official mid-patch notes change heal to 4% and armor ignore to 30% base + 10% AP. Recorded hotfix values.",
+      "confidence": "medium",
+      "notes": "op.gg 18.5. Mana from ability block 'Active 0 / 40'; metabot mana 40 agrees. Per 18.4 notes Bonus AD 80% => 100% and Leap 155/235 => 135/205 (consistent with op.gg)."
+    },
+    {
+      "name": "Ezreal",
+      "cost": 4,
+      "traits": [
+        "Elderwood",
+        "Executioner"
+      ],
+      "hp": [
+        850,
+        1530,
+        3254
+      ],
+      "ad": [
+        45,
+        68,
+        101
+      ],
+      "as": 0.75,
+      "armor": 40,
+      "mr": 40,
+      "range": 4,
+      "manaStart": 0,
+      "manaMax": 30,
+      "ability": {
+        "name": "Forest's Flurry",
+        "text": "Blink away from the current target, deal 270/405/1200 [AD] physical damage to them, and gain 30%/30%/100% [AP] Attack Speed. Every 4th cast consumes the Attack Speed granted from Nature's Wrath and fires a blast through the largest group of enemies that deals 385/580/2500 [AD] physical damage, reduced by 25% for each enemy it passes through (minimum 50%).",
+        "numbers": {
+          "Damage": [
+            270,
+            405,
+            1200
+          ],
+          "Attack Speed %": [
+            30,
+            30,
+            100
+          ],
+          "Empowered Damage": [
+            385,
+            580,
+            2500
+          ],
+          "Reduction per enemy %": [
+            25,
+            25,
+            25
+          ],
+          "Minimum %": [
+            50,
+            50,
+            50
+          ]
+        },
+        "scaling": {
+          "Damage": "AD",
+          "Attack Speed %": "AP",
+          "Empowered Damage": "AD"
+        },
+        "damageType": "physical"
+      },
+      "sources": [
+        "https://op.gg/tft/meta-trends/champion/DA_18_Ezreal",
+        "https://metabot.gg/en/TFT/18/champions/range",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-4"
+      ],
+      "conflicts": "Small cast damage: op.gg (stale 18.2) 250/375/1200; official 18.4 notes '250/375 AD => 270/405 AD'. Recorded 270/405; 3-star 1200 from op.gg.",
+      "confidence": "medium",
+      "notes": "op.gg page labelled 'Version: 18.2' (stale). Metabot stats agree (mana 30, AD 45, AS 0.75, HP 850, 40/40). Ezreal op.gg ID DA_18_Ezreal worked."
+    },
+    {
+      "name": "Lillia",
+      "cost": 4,
+      "traits": [
+        "Defender",
+        "Fae"
+      ],
+      "hp": [
+        1300,
+        2340,
+        4712
+      ],
+      "ad": [
+        40,
+        60,
+        90
+      ],
+      "as": 0.65,
+      "armor": 60,
+      "mr": 60,
+      "range": 1,
+      "manaStart": 40,
+      "manaMax": 140,
+      "ability": {
+        "name": "Lilting Lullaby",
+        "text": "Restore 350/525/800 [AP] Health and send 4 butterflies at nearby enemies. Enemies hit take 90/135/2000 [AP] magic damage and Sleep for 1.5/1.75/8 seconds. If they take 1000 damage, they wake up and take an additional 10% max Health magic damage.",
+        "numbers": {
+          "Heal": [
+            350,
+            525,
+            800
+          ],
+          "Damage": [
+            90,
+            135,
+            2000
+          ],
+          "Sleep Duration": [
+            1.5,
+            1.75,
+            8
+          ],
+          "Wake threshold damage": [
+            1000,
+            1000,
+            1000
+          ],
+          "Wake bonus % max HP": [
+            10,
+            10,
+            10
+          ]
+        },
+        "scaling": {
+          "Heal": "AP",
+          "Damage": "AP"
+        },
+        "damageType": "magic"
+      },
+      "sources": [
+        "https://op.gg/tft/meta-trends/champion/DA_18_Lillia",
+        "https://metabot.gg/en/TFT/18/champions/range",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-3"
+      ],
+      "conflicts": "",
+      "confidence": "high",
+      "notes": "op.gg 18.5."
+    },
+    {
+      "name": "Malphite",
+      "cost": 4,
+      "traits": [
+        "Blackthorn",
+        "Monolith"
+      ],
+      "hp": [
+        1300,
+        2340,
+        4712
+      ],
+      "ad": [
+        70,
+        105,
+        158
+      ],
+      "as": 0.55,
+      "armor": 70,
+      "mr": 70,
+      "range": 1,
+      "manaStart": 30,
+      "manaMax": 80,
+      "ability": {
+        "name": "Petrified Bark",
+        "text": "Gain 735/885/2000 [AP] Shield for 4 seconds and become petrified. When the shield breaks, unleash a wave of dark energy, dealing 82/123/3399 [AP][Armor][MR] magic damage to enemies within 2/2/3 hexes.",
+        "numbers": {
+          "Shield": [
+            735,
+            885,
+            2000
+          ],
+          "Damage": [
+            82,
+            123,
+            3399
+          ],
+          "Damage (AP part)": [
+            40,
+            60,
+            2000
+          ],
+          "Damage (Armor/MR % bracket)": [
+            30,
+            45,
+            999
+          ],
+          "Radius (hexes)": [
+            2,
+            2,
+            3
+          ]
+        },
+        "scaling": {
+          "Shield": "AP",
+          "Damage": "op.gg 'Damage: 82 = 40[AP] + 30%[Armor] + 30%[MR] [30% / 45% / 999% ]'"
+        },
+        "damageType": "magic"
+      },
+      "sources": [
+        "https://op.gg/tft/meta-trends/champion/DA_18_Malphite",
+        "https://metabot.gg/en/TFT/18/champions/range",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-5",
+        "https://topmeta.gg/en/update/tft-patch-18-5/",
+        "https://hexkey.app/patches/18.5"
+      ],
+      "conflicts": "Shield: op.gg (stale 18.2 page) 700/850/2000; official 18.5 notes 'Shield: 700/850 AP => 735/885 AP'. Recorded 735/885; 3-star 2000 is from op.gg (not mentioned in notes).",
+      "confidence": "medium",
+      "notes": "op.gg page labelled 'Version: 18.2' (stale). Metabot stats agree (mana 80, AD 70, AS 0.55, HP 1300, 70/70)."
+    },
+    {
+      "name": "Morgana",
+      "cost": 4,
+      "traits": [
+        "Coven",
+        "Invoker"
+      ],
+      "hp": [
+        1100,
+        1980,
+        4064
+      ],
+      "ad": [
+        45,
+        68,
+        101
+      ],
+      "as": 0.75,
+      "armor": 60,
+      "mr": 60,
+      "range": 2,
+      "manaStart": 0,
+      "manaMax": 65,
+      "ability": {
+        "name": "Withering Curse",
+        "text": "Passive: Gain 25% Omnivamp. Active: Fire a dark blast at 3 nearby enemies, dealing 70/105/500 magic damage to them and cursing them for 4 seconds. Then, spawn a Hex withering zone for the same duration that deals 33/50/500 magic damage per second.",
+        "numbers": {
+          "Initial Damage": [
+            70,
+            105,
+            500
+          ],
+          "Zone Damage": [
+            33,
+            50,
+            500
+          ],
+          "Curse Bonus Damage": [
+            25,
+            38,
+            240
+          ],
+          "Omnivamp %": [
+            25,
+            25,
+            25
+          ],
+          "Curse duration (s)": [
+            4,
+            4,
+            4
+          ]
+        },
+        "scaling": {
+          "Initial Damage": "scaling icon not identifiable (likely AP)",
+          "Zone Damage": "scaling icon not identifiable (likely AP)",
+          "Curse Bonus Damage": "scaling icon not identifiable"
+        },
+        "damageType": "magic"
+      },
+      "sources": [
+        "https://op.gg/tft/meta-trends/champion/DA_18_Morgana",
+        "https://metabot.gg/en/TFT/18/champions/range",
+        "https://op.gg/tft/meta-trends/champion",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-5",
+        "https://metabot.gg/en/TFT/unit/DA_18_Morgana/overview"
+      ],
+      "conflicts": "",
+      "confidence": "medium",
+      "notes": "op.gg 18.5. op.gg fetch did not give Morgana's traits or mana; mana 0/65 and range 2 from metabot unit page (also traits Coven, Invoker). Curse effect text not captured. Traits Coven, Invoker from op.gg champion ranking list. 18.5 notes confirm Initial Curse Damage 70/105 and Curse Bonus Damage 25/38."
+    },
+    {
+      "name": "Nidalee",
+      "cost": 4,
+      "traits": [
+        "Adaptor",
+        "Primal"
+      ],
+      "hp": [
+        850,
+        1530,
+        3254
+      ],
+      "ad": [
+        35,
+        53,
+        79
+      ],
+      "as": 0.8,
+      "armor": 30,
+      "mr": 30,
+      "range": 1,
+      "manaStart": 0,
+      "manaMax": 45,
+      "ability": {
+        "name": "Javelin Toss",
+        "text": "Gain 150% Attack Speed for the next 3 attacks. These attacks are replaced with javelins that deal 185/275/2000 magic damage. The 3rd attack instead targets the furthest enemy with the least items and deals 330/500/3000 magic damage. (Other Adaptor form:) Transform into a Melee cougar Assassin that swipes enemies.",
+        "numbers": {
+          "Damage": [
+            185,
+            275,
+            2000
+          ],
+          "Final Damage": [
+            330,
+            500,
+            3000
+          ],
+          "Attack Speed %": [
+            150,
+            150,
+            150
+          ],
+          "Attacks": [
+            3,
+            3,
+            3
+          ]
+        },
+        "scaling": {
+          "Damage": "scaling icon not identifiable (likely AP)",
+          "Final Damage": "scaling icon not identifiable (likely AP)"
+        },
+        "damageType": "magic"
+      },
+      "sources": [
+        "https://op.gg/tft/meta-trends/champion/DA_Nidalee18_AP",
+        "https://metabot.gg/en/TFT/18/champions/range",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-4"
+      ],
+      "conflicts": "",
+      "confidence": "medium",
+      "notes": "op.gg page labelled 'Version: 18.4'; AP-form page. Mana from ability block 'Active 0 / 45'; metabot mana 45. Range 1 per metabot (op.gg blank) - note AP form throws javelins, so range may differ by form; unverified. 18.4 notes AP small spear 170/255 => 185/275 consistent; 18.2 third attack 330/500 consistent."
+    },
+    {
+      "name": "Sentinel",
+      "cost": 4,
+      "traits": [
+        "Invoker",
+        "Riftbeast",
+        "Vanguard"
+      ],
+      "hp": [
+        1300,
+        2340,
+        4712
+      ],
+      "ad": [
+        75,
+        113,
+        169
+      ],
+      "as": 0.6,
+      "armor": 60,
+      "mr": 60,
+      "range": 1,
+      "manaStart": 60,
+      "manaMax": 150,
+      "ability": {
+        "name": "Azure Shockwave",
+        "text": "Gain 480/684/2421 Shield for 4 seconds. Slam the ground, sending a fissure in the direction of the most enemies. Enemies hit are briefly knocked up, take 100/150/3500 magic damage, and are Mana Reaved for 10. Blue Buff: Each time Sentinel casts, allies gain 2 Mana Regen. [18.5 notes: knock-up 'Stun Duration: 1s => 0.5s'; 'Shield: 350/450 AP => 375/475 AP'.]",
+        "numbers": {
+          "Shield (bracket values)": [
+            375,
+            475,
+            2000
+          ],
+          "Damage": [
+            100,
+            150,
+            3500
+          ],
+          "Mana Reave": [
+            10,
+            10,
+            10
+          ],
+          "Stun (s)": [
+            0.5,
+            0.5,
+            null
+          ]
+        },
+        "scaling": {
+          "Shield": "HP + AP. op.gg (stale 18.3 page): 'Shield: 480 = 130() + 350() [ 350 / 450 / 2000 ]'; official 18.5 notes 'Shield: 350/450 AP => 375/475 AP'.",
+          "Damage": "scaling icon not identifiable (likely AP)"
+        },
+        "damageType": "magic"
+      },
+      "sources": [
+        "https://op.gg/tft/meta-trends/champion/DA_Sentinel18",
+        "https://metabot.gg/en/TFT/18/champions/range",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-5",
+        "https://topmeta.gg/en/update/tft-patch-18-5/",
+        "https://hexkey.app/patches/18.5"
+      ],
+      "conflicts": "op.gg (labelled 18.3) shows shield 480/684/2421 with AP part 350/450/2000; official 18.5 notes raise AP part to 375/475. 3-star AP part 2000 from op.gg; 18.5 shield totals not found.",
+      "confidence": "medium",
+      "notes": "op.gg page labelled 'Version: 18.3' (stale). Mana from ability block 'Active 60 / 150'; metabot mana 150 agrees."
+    },
+    {
+      "name": "Sett",
+      "cost": 4,
+      "traits": [
+        "Blossom",
+        "Brawler"
+      ],
+      "hp": [
+        1200,
+        2160,
+        4388
+      ],
+      "ad": [
+        80,
+        120,
+        180
+      ],
+      "as": 0.65,
+      "armor": 60,
+      "mr": 60,
+      "range": 1,
+      "manaStart": 60,
+      "manaMax": 135,
+      "ability": {
+        "name": "Haymaker",
+        "text": "Passive: Upon falling below 40% max Health the first time each combat, gain 100 mana. Active: Wind up a big punch, rapidly healing for 12% + 250/300/2000 before dealing 222/355/5233 physical damage in a large cone.",
+        "numbers": {
+          "Heal flat": [
+            250,
+            300,
+            2000
+          ],
+          "Heal %": [
+            12,
+            12,
+            12
+          ],
+          "Damage": [
+            222,
+            355,
+            5233
+          ],
+          "Damage (bracket values)": [
+            150,
+            225,
+            5000
+          ],
+          "Passive mana": [
+            100,
+            100,
+            100
+          ]
+        },
+        "scaling": {
+          "Heal": "op.gg 'Heal: 12%() + 250() [ 250 / 300 / 2000 ]' - icons unnamed",
+          "Damage": "op.gg 'Damage: 222 = 72 + 150() [ 150 / 225 / 5000 ]' - icon unnamed"
+        },
+        "damageType": "physical"
+      },
+      "sources": [
+        "https://op.gg/tft/meta-trends/champion/DA_18_Sett",
+        "https://metabot.gg/en/TFT/18/champions/armor",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-5"
+      ],
+      "conflicts": "",
+      "confidence": "medium",
+      "notes": "op.gg 18.5. Mana from ability block 'Active 60 / 135'; metabot mana 135. 18.5 notes 'Heal AP Amount: 225/275 AP => 250/300 AP' consistent."
+    },
+    {
+      "name": "Sivir",
+      "cost": 4,
+      "traits": [
+        "Hunter",
+        "Primal"
+      ],
+      "hp": [
+        850,
+        1530,
+        3254
+      ],
+      "ad": [
+        50,
+        75,
+        113
+      ],
+      "as": 0.8,
+      "armor": 40,
+      "mr": 40,
+      "range": 4,
+      "manaStart": 0,
+      "manaMax": 40,
+      "ability": {
+        "name": "Boomerang Blade",
+        "text": "Throw a large crossblade that deals [AD][AP] physical damage to the current target and bounces 8 times between nearby enemies, dealing a percentage of it as physical damage each bounce. When this kills an enemy, bounce 3/3/6 additional times. (op.gg stale text: 205/305/1150 initial, 41/61/460 per bounce.)",
+        "numbers": {
+          "Damage (AD part)": [
+            220,
+            330,
+            null
+          ],
+          "Bounce Damage % of Damage": [
+            18,
+            18,
+            null
+          ],
+          "Bounces": [
+            8,
+            8,
+            8
+          ],
+          "Extra bounces on kill": [
+            3,
+            3,
+            6
+          ]
+        },
+        "scaling": {
+          "Damage": "AD + AP. op.gg (stale 18.2 page): '205 = 190([AD]) + 15([AP]) [ 190 / 285 / 1050 ]', AP part [15/20/100]; official 18.4 notes 190/285 => 200/300 AD; official 18.5 notes 200/300 AD => 220/330 AD.",
+          "Bounce Damage": "18.5 notes: 20% of initial => 18% of initial (op.gg stale: 20%/20%/40%)"
+        },
+        "damageType": "physical"
+      },
+      "sources": [
+        "https://op.gg/tft/meta-trends/champion/DA_18_Sivir",
+        "https://metabot.gg/en/TFT/18/champions/range",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-4",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-5",
+        "https://topmeta.gg/en/update/tft-patch-18-5/",
+        "https://hexkey.app/patches/18.5"
+      ],
+      "conflicts": "op.gg page is stale (labelled 18.2): AD part 190/285/1050, bounce 20%/20%/40%. Official notes: 18.4 190/285 => 200/300 AD; 18.5 200/300 => 220/330 AD and bounce 20% => 18%. Totals at 18.5 and all 3-star values not found.",
+      "confidence": "low",
+      "notes": "op.gg page labelled 18.2 (stale). Metabot stats agree (mana 40, AD 50, AS 0.80, HP 850, 40/40)."
+    },
+    {
+      "name": "Soraka",
+      "cost": 4,
+      "traits": [
+        "Executioner",
+        "Flora Fatalis"
+      ],
+      "hp": [
+        850,
+        1530,
+        3254
+      ],
+      "ad": [
+        30,
+        45,
+        68
+      ],
+      "as": 0.75,
+      "armor": 40,
+      "mr": 40,
+      "range": 4,
+      "manaStart": 0,
+      "manaMax": 30,
+      "ability": {
+        "name": "Starcall",
+        "text": "Call down a star on the current target, dealing 235/355/1000 [AP] magic damage. If a star has previously fallen on them, call down 3 additional stars that each deal 110/165/1000 [AP] magic damage.",
+        "numbers": {
+          "Damage": [
+            235,
+            355,
+            1000
+          ],
+          "Secondary Damage": [
+            110,
+            165,
+            1000
+          ],
+          "Additional stars": [
+            3,
+            3,
+            3
+          ]
+        },
+        "scaling": {
+          "Damage": "AP",
+          "Secondary Damage": "AP"
+        },
+        "damageType": "magic"
+      },
+      "sources": [
+        "https://op.gg/tft/meta-trends/champion/DA_18_Soraka",
+        "https://metabot.gg/en/TFT/18/champions/range",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-5"
+      ],
+      "conflicts": "",
+      "confidence": "high",
+      "notes": "op.gg 18.5. 18.5 notes consistent (235/355, 110/165)."
+    },
+    {
+      "name": "Zyra",
+      "cost": 4,
+      "traits": [
+        "Summoner",
+        "Thornmaiden"
+      ],
+      "hp": [
+        850,
+        1530,
+        3254
+      ],
+      "ad": [
+        40,
+        60,
+        90
+      ],
+      "as": 0.75,
+      "armor": 40,
+      "mr": 40,
+      "range": 4,
+      "manaStart": 0,
+      "manaMax": 45,
+      "ability": {
+        "name": "Rampant Growth",
+        "text": "Spawn 2/2/4 plants around the battlefield that attack the nearest enemy 10 times. Each attack deals 35/53/225 magic damage.",
+        "numbers": {
+          "Plants": [
+            2,
+            2,
+            4
+          ],
+          "Damage": [
+            35,
+            53,
+            225
+          ],
+          "Attacks per plant": [
+            10,
+            10,
+            10
+          ]
+        },
+        "scaling": {
+          "Damage": "scaling icon not identifiable (likely AP)"
+        },
+        "damageType": "magic"
+      },
+      "sources": [
+        "https://op.gg/tft/meta-trends/champion/DA_18_Zyra",
+        "https://metabot.gg/en/TFT/18/champions/range",
+        "https://metabot.gg/en/TFT/unit/DA_18_Zyra/overview"
+      ],
+      "conflicts": "",
+      "confidence": "medium",
+      "notes": "op.gg 18.5. op.gg showed no mana; mana 0/45 from metabot unit page."
+    },
+    {
+      "name": "Alune",
+      "cost": 5,
+      "traits": [
+        "Attuned",
+        "Lunar",
+        "Spellweaver"
+      ],
+      "hp": [
+        900,
+        1620,
+        6916
+      ],
+      "ad": [
+        40,
+        60,
+        90
+      ],
+      "as": 0.85,
+      "armor": 45,
+      "mr": 45,
+      "range": 4,
+      "manaStart": 0,
+      "manaMax": 35,
+      "ability": {
+        "name": "Moonfall",
+        "text": "Rain 9 moonshards split among the 3 nearest enemies, dealing 58/88/500 magic damage each. If the moon is full, instead crash it onto the board, dealing 2350/3600/7500 magic damage split among all enemies.",
+        "numbers": {
+          "Damage": [
+            58,
+            88,
+            500
+          ],
+          "Full Moon Damage": [
+            2350,
+            3600,
+            7500
+          ],
+          "Moonshards": [
+            9,
+            9,
+            9
+          ]
+        },
+        "scaling": {
+          "Damage": "scaling icon not identifiable (likely AP)",
+          "Full Moon Damage": "scaling icon not identifiable (likely AP)"
+        },
+        "damageType": "magic"
+      },
+      "sources": [
+        "https://op.gg/tft/meta-trends/champion/DA_18_Alune",
+        "https://metabot.gg/en/TFT/18/champions/armor",
+        "https://metabot.gg/de_DE/TFT/18/champions/placement",
+        "https://metabot.gg/en/TFT/18/champions/range",
+        "https://metabot.gg/fr_FR/TFT/18/champions/attack-speed",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-5"
+      ],
+      "conflicts": "Attack speed: op.gg (18.5) 0.85, metabot en armor page 0.85, metabot de placement page 0.85; metabot en range page and fr attack-speed page 0.80.",
+      "confidence": "medium",
+      "notes": "op.gg 18.5. Mana from ability block '0 / 35'. 5-cost 3-star HP 6916 as shown on op.gg. 18.5 notes: Moonshard 55/83 => 58/88, AS 0.8 => 0.85 (consistent with op.gg)."
+    },
+    {
+      "name": "Ashe",
+      "cost": 5,
+      "traits": [
+        "Blossom",
+        "Hunter"
+      ],
+      "hp": [
+        900,
+        1620,
+        6916
+      ],
+      "ad": [
+        75,
+        113,
+        169
+      ],
+      "as": 0.8,
+      "armor": 45,
+      "mr": 45,
+      "range": 6,
+      "manaStart": 0,
+      "manaMax": 80,
+      "ability": {
+        "name": "Spirit Rift",
+        "text": "Fire an arrow through the most enemies in a line that deals 465/700/1000 physical damage, reduced by 80%/80%/40% per enemy hit (minimum 20%). The arrow leaves a trail for 4/4/20 seconds that deals 7/11/220 + 1.5%/1.5%/10% max Health physical damage per second to enemies within and 20% Slows them. Refund 70% Mana if the arrow hits no enemies.",
+        "numbers": {
+          "Damage": [
+            465,
+            700,
+            1000
+          ],
+          "Reduction per enemy %": [
+            80,
+            80,
+            40
+          ],
+          "Trail duration (s)": [
+            4,
+            4,
+            20
+          ],
+          "Rift Damage (bracket values A)": [
+            2,
+            3,
+            20
+          ],
+          "Rift Damage (bracket values B)": [
+            11,
+            16,
+            200
+          ],
+          "Rift Max Health Damage %": [
+            1.5,
+            1.5,
+            10
+          ],
+          "Slow %": [
+            20,
+            20,
+            20
+          ],
+          "Mana refund %": [
+            70,
+            70,
+            70
+          ]
+        },
+        "scaling": {
+          "Damage": "scaling icon not identifiable (likely AD)",
+          "Rift Damage": "AD + (unnamed). op.gg (labelled 18.4): 'Rift Damage: 7 = 5() + 2() [ 5 / 8 / 200 ]' and 'Rift Damage: [ 2 / 3 / 20 ]'. Official notes: 18.2 mid-patch DoT base 5/8 AD => 9/14 AD; 18.5 'DoT Damage: 9/14 AD => 11/16 AD'. Recorded base AD part 11/16 (3-star 200 from op.gg)."
+        },
+        "damageType": "physical"
+      },
+      "sources": [
+        "https://op.gg/tft/meta-trends/champion/DA_18_Ashe",
+        "https://metabot.gg/en/TFT/18/champions/range",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-2",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-4",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-5",
+        "https://topmeta.gg/en/update/tft-patch-18-5/",
+        "https://hexkey.app/patches/18.5"
+      ],
+      "conflicts": "Rift DoT base: op.gg 5/8/200 (stale) vs official 18.5 notes 11/16. Trail duration: op.gg 4/4/20 s vs official 18.2 mid-patch note 'Trail Duration 4s => 3s' (no later reversal found).",
+      "confidence": "low",
+      "notes": "op.gg page labelled 'Version: 18.4'. Mana from ability block 'Active 0 / 80'; metabot mana 80 agrees. Range 6 from metabot."
+    },
+    {
+      "name": "Draven",
+      "cost": 5,
+      "traits": [
+        "Bounty Seeker"
+      ],
+      "hp": [
+        900,
+        1620,
+        6916
+      ],
+      "ad": [
+        48,
+        72,
+        108
+      ],
+      "as": 0.85,
+      "armor": 45,
+      "mr": 45,
+      "range": 6,
+      "manaStart": 0,
+      "manaMax": 110,
+      "ability": {
+        "name": "Whirling Death",
+        "text": "Passive: Attacks target random enemies in range and apply a bleed that deals 150/225/3000 [AD] physical damage over 12 seconds. Every attack has a 12% [AP] chance to deal 50%/50%/900% bonus physical damage and apply 2 bleeds instead. Active: Throw two giant axes towards the enemy with the most bleeds. Deal 100/150/400 [AD] physical damage to enemies hit and consume their bleed, instantly dealing the remaining damage. The axes then return, dealing 30/45/100 [AD] physical damage to enemies hit.",
+        "numbers": {
+          "Bleed Damage": [
+            150,
+            225,
+            3000
+          ],
+          "Bleed duration (s)": [
+            12,
+            12,
+            12
+          ],
+          "Proc chance %": [
+            12,
+            12,
+            12
+          ],
+          "Proc bonus damage %": [
+            50,
+            50,
+            900
+          ],
+          "Outgoing Axe Damage": [
+            100,
+            150,
+            400
+          ],
+          "Returning Axe Damage": [
+            30,
+            45,
+            100
+          ]
+        },
+        "scaling": {
+          "Bleed Damage": "AD",
+          "Proc chance %": "AP",
+          "Outgoing Axe Damage": "AD",
+          "Returning Axe Damage": "AD"
+        },
+        "damageType": "physical"
+      },
+      "sources": [
+        "https://op.gg/tft/meta-trends/champion/DA_Draven18",
+        "https://metabot.gg/en/TFT/18/champions/range",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-4"
+      ],
+      "conflicts": "Bleed damage: op.gg (stale 18.2 page) 140/210/3000; official 18.4 notes 'Bleed Damage: 140/210 AD => 150/225 AD'. Recorded 150/225; 3-star 3000 from op.gg. 18.4 also added '50% Mana refund if the axes hit 0 enemies' (not in op.gg text).",
+      "confidence": "medium",
+      "notes": "op.gg page labelled 18.2 (stale). op.gg lists a single trait (Bounty Seeker). Metabot stats agree (mana 110, AD 48, AS 0.85, HP 900, 45/45)."
+    },
+    {
+      "name": "Elder Dragon",
+      "cost": 5,
+      "traits": [
+        "Apex Predator",
+        "Riftbeast"
+      ],
+      "hp": [
+        1800,
+        3240,
+        9832
+      ],
+      "ad": [
+        125,
+        188,
+        281
+      ],
+      "as": 0.5,
+      "armor": 75,
+      "mr": 75,
+      "range": 2,
+      "manaStart": 20,
+      "manaMax": 60,
+      "ability": {
+        "name": "Without Equal",
+        "text": "Passive: Attacks deal 75%/75%/100% damage to enemies adjacent to the target. Active: Become invulnerable and fly into the air. On return, stun all enemies for 1.25/1.25/99 seconds, gain 15%/15%/100% Omnivamp, and Ignite them for 3/3/99 seconds. Ignited enemies take 2%/2%/20% max Health physical damage per second. Replace this ability with Flame Breath and immediately cast it. Flame Breath: Spew fire at the most enemies in a line through the target, dealing 305/465/7200 physical damage, reduced by 20% for each enemy it passes through (minimum 20%.) Ignite those enemies for 3/3/99 seconds. Elder Dragon Buff: Damaging an enemy below 12% Health executes them.",
+        "numbers": {
+          "Adjacent splash %": [
+            75,
+            75,
+            100
+          ],
+          "Stun (s)": [
+            1.25,
+            1.25,
+            99
+          ],
+          "Omnivamp %": [
+            15,
+            15,
+            100
+          ],
+          "Ignite duration (s)": [
+            3,
+            3,
+            99
+          ],
+          "Ignite % max HP per second": [
+            2,
+            2,
+            20
+          ],
+          "Flame Breath Damage": [
+            305,
+            465,
+            7200
+          ],
+          "Flame Breath (AD part, bracket)": [
+            285,
+            435,
+            7000
+          ],
+          "Flame Breath (AP part, bracket)": [
+            20,
+            30,
+            200
+          ],
+          "Execute threshold %": [
+            12,
+            12,
+            12
+          ]
+        },
+        "scaling": {
+          "Flame Breath Damage": "op.gg 'Damage: 305( ) = 285( ) + 20( ) [ 285 / 435 / 7000 ]' and 'Damage: [ 20 / 30 / 200 ]' - icons unnamed (likely AD + AP)"
+        },
+        "damageType": "physical"
+      },
+      "sources": [
+        "https://op.gg/tft/meta-trends/champion/DA_18_ElderDragon",
+        "https://metabot.gg/en/TFT/18/champions/range"
+      ],
+      "conflicts": "",
+      "confidence": "medium",
+      "notes": "op.gg 18.5. Mana from ability block 'Active 20 / 60'; metabot mana 60 agrees. Labels for AD/AP parts are my inference from the usual op.gg pattern - icons were unnamed."
+    },
+    {
+      "name": "Gnar",
+      "cost": 5,
+      "traits": [
+        "Brawler",
+        "Elderwood",
+        "Sprykin"
+      ],
+      "hp": [
+        900,
+        1620,
+        6916
+      ],
+      "ad": [
+        100,
+        150,
+        225
+      ],
+      "as": 0.9,
+      "armor": 55,
+      "mr": 55,
+      "range": 2,
+      "manaStart": 0,
+      "manaMax": 70,
+      "ability": {
+        "name": "Rage Gene",
+        "text": "Passive: Gain 5/5/50 Rage per second and 5/5/20 Rage per attack. Active: Transform into Mega Gnar and leap into the largest group of enemies within 3 hexes. Then, deal 100/150/2000 [AD] physical damage to enemies within 2/2/10 hexes, reduce their Armor and Magic Resist by 15/20/250 [AP], and Stun them for 1/1/15 second. Mega Gnar gains 400/600/15000 Health, and replaces his Ability with Grab n' Throw. Grab n' Throw: Throw the target at the farthest enemy, dealing 380/570/9000 [AD] physical damage to them and 135/205/4500 [AD] physical damage to enemies they pass through. If there's only 1 enemy left, throw them off the battlefield instead.",
+        "numbers": {
+          "Rage per second": [
+            5,
+            5,
+            50
+          ],
+          "Rage per attack": [
+            5,
+            5,
+            20
+          ],
+          "Leap Damage": [
+            100,
+            150,
+            2000
+          ],
+          "Leap radius (hexes)": [
+            2,
+            2,
+            10
+          ],
+          "Resistance Reduction": [
+            15,
+            20,
+            250
+          ],
+          "Stun (s)": [
+            1,
+            1,
+            15
+          ],
+          "Transform Health": [
+            400,
+            600,
+            15000
+          ],
+          "Damage": [
+            380,
+            570,
+            9000
+          ],
+          "Secondary Damage": [
+            135,
+            205,
+            4500
+          ]
+        },
+        "scaling": {
+          "Leap Damage": "AD",
+          "Resistance Reduction": "AP",
+          "Transform Health": "none shown",
+          "Damage": "AD",
+          "Secondary Damage": "AD"
+        },
+        "damageType": "physical"
+      },
+      "sources": [
+        "https://op.gg/no/tft/meta-trends/champion/DA_18_GnarSmall",
+        "https://metabot.gg/en/TFT/18/champions/range"
+      ],
+      "conflicts": "",
+      "confidence": "high",
+      "notes": "op.gg (Norwegian) 18.5. AS/armor/MR label-value pairing inferred by fetch tool but match metabot (0.90, 55, 55). Range 2 from metabot."
+    },
+    {
+      "name": "Ivern",
+      "cost": 5,
+      "traits": [
+        "Greenfather"
+      ],
+      "hp": [
+        1000,
+        1800,
+        7240
+      ],
+      "ad": [
+        60,
+        90,
+        135
+      ],
+      "as": 0.8,
+      "armor": 55,
+      "mr": 55,
+      "range": 3,
+      "manaStart": 50,
+      "manaMax": 80,
+      "ability": {
+        "name": "Triggerseed",
+        "text": "Active: Grant 2/2/10 allies 185/350/3000 Shield and 10%/15%/100% Damage Amp for 6 seconds. Then deal 155/235/2000 magic damage to enemies adjacent to them. After casting 6 times, also grant 100% stacking Attack Speed to targets. Passive: Shields from this Ability can critically strike with Precision.",
+        "numbers": {
+          "Allies": [
+            2,
+            2,
+            10
+          ],
+          "Shield Amount": [
+            185,
+            350,
+            3000
+          ],
+          "Damage Amp %": [
+            10,
+            15,
+            100
+          ],
+          "Damage": [
+            155,
+            235,
+            2000
+          ],
+          "Duration (s)": [
+            6,
+            6,
+            6
+          ]
+        },
+        "scaling": {
+          "Shield Amount": "scaling icon not identifiable (likely AP)",
+          "Damage": "scaling icon not identifiable (likely AP)"
+        },
+        "damageType": "magic"
+      },
+      "sources": [
+        "https://op.gg/tft/meta-trends/champion/DA_18_Ivern",
+        "https://metabot.gg/en/TFT/18/champions/range",
+        "https://op.gg/tft/meta-trends/champion",
+        "https://metabot.gg/en/TFT/unit/DA_18_Ivern/overview"
+      ],
+      "conflicts": "",
+      "confidence": "medium",
+      "notes": "op.gg page labelled 'Version: 18.4'. Trait Greenfather from op.gg ranking list and metabot unit page; ability name 'Triggerseed' from metabot unit page (op.gg fetch did not show the name). Metabot unit page mana 50/80, range 3. 18.2 notes Shield 165/300 => 185/350, Damage 140/210 => 155/235 (consistent)."
+    },
+    {
+      "name": "Kennen",
+      "cost": 5,
+      "traits": [
+        "Executioner",
+        "Inferno"
+      ],
+      "hp": [
+        1200,
+        2160,
+        7888
+      ],
+      "ad": [
+        50,
+        75,
+        113
+      ],
+      "as": 0.85,
+      "armor": 60,
+      "mr": 60,
+      "range": 2,
+      "manaStart": 0,
+      "manaMax": 40,
+      "ability": {
+        "name": "Firestorm",
+        "text": "Charge up, gaining 15% Ability Power per Burning enemy. Then, gain 230/300/3000 [AP] Shield for 2.5 seconds and rush through a nearby group of enemies, dealing 80/120/1500 [AP] magic damage to each. After rushing, unleash a 2 Hex firestorm that deals a total of 475/715/5000 [AP] magic damage split among all enemies hit over 2 seconds.",
+        "numbers": {
+          "Shield": [
+            230,
+            300,
+            3000
+          ],
+          "Damage": [
+            80,
+            120,
+            1500
+          ],
+          "Firestorm Damage": [
+            475,
+            715,
+            5000
+          ],
+          "AP per Burning enemy %": [
+            15,
+            15,
+            15
+          ]
+        },
+        "scaling": {
+          "Shield": "AP",
+          "Damage": "AP",
+          "Firestorm Damage": "AP"
+        },
+        "damageType": "magic"
+      },
+      "sources": [
+        "https://op.gg/tft/meta-trends/champion/DA_18_Kennen",
+        "https://metabot.gg/en/TFT/18/champions/range",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-4"
+      ],
+      "conflicts": "",
+      "confidence": "high",
+      "notes": "op.gg 18.5. Range 2 from metabot. 18.4 notes Shield 250/350 => 230/300 consistent."
+    },
+    {
+      "name": "Lux",
+      "cost": 5,
+      "traits": [
+        "Avatar"
+      ],
+      "hp": [
+        900,
+        1620,
+        6916
+      ],
+      "ad": [
+        40,
+        60,
+        90
+      ],
+      "as": 0.8,
+      "armor": 40,
+      "mr": 40,
+      "range": 6,
+      "manaStart": 20,
+      "manaMax": 70,
+      "ability": {
+        "name": "Final Spark",
+        "text": "Passive: On cast, all allies that share a trait with Lux gain 3/3/100 [AP] mana. Active: Fire a laser towards the largest group of enemies that deals 375/565/6500 [AP] magic damage, reduced by 25%/25%/10% for each enemy hit.",
+        "numbers": {
+          "Ally mana": [
+            3,
+            3,
+            100
+          ],
+          "Damage": [
+            375,
+            565,
+            6500
+          ],
+          "Reduction per enemy %": [
+            25,
+            25,
+            10
+          ]
+        },
+        "scaling": {
+          "Ally mana": "AP",
+          "Damage": "AP"
+        },
+        "damageType": "magic"
+      },
+      "sources": [
+        "https://op.gg/ro/tft/meta-trends/champion/DA_Lux18_Base",
+        "https://metabot.gg/en/TFT/18/champions/range"
+      ],
+      "conflicts": "",
+      "confidence": "high",
+      "notes": "op.gg (Romanian) 18.5, base form (DA_Lux18_Base). op.gg lists 'Avatar' trait only for the base form. Range 6 from metabot."
+    },
+    {
+      "name": "Maokai",
+      "cost": 5,
+      "traits": [
+        "Juggernaut",
+        "Old Growth"
+      ],
+      "hp": [
+        1150,
+        2070,
+        7726
+      ],
+      "ad": [
+        80,
+        120,
+        180
+      ],
+      "as": 0.65,
+      "armor": 60,
+      "mr": 60,
+      "range": 1,
+      "manaStart": 30,
+      "manaMax": 100,
+      "ability": {
+        "name": "Sow the Seeds",
+        "text": "Passive: After every 650/650/300 damage blocked, a sapling jumps towards a nearby enemy and deals 81/145/2795 magic damage. On death, 3/5/10 saplings jump out. Active: Deal 69/124/3726 magic damage to target and restore 330/400/2000 + 10%/10%/100% missing Health.",
+        "numbers": {
+          "Damage blocked per sapling": [
+            650,
+            650,
+            300
+          ],
+          "Sapling Damage": [
+            81,
+            145,
+            2795
+          ],
+          "Sapling Damage % (bracket)": [
+            7,
+            7,
+            75
+          ],
+          "Saplings on Death": [
+            3,
+            5,
+            10
+          ],
+          "Active Damage": [
+            69,
+            124,
+            3726
+          ],
+          "Active Damage % (bracket)": [
+            6,
+            6,
+            100
+          ],
+          "Heal": [
+            330,
+            400,
+            2000
+          ],
+          "Heal % missing HP": [
+            10,
+            10,
+            100
+          ]
+        },
+        "scaling": {
+          "Sapling Damage": "op.gg 'Sapling Damage: 81() [7% / 7% / 75%]' - icon unnamed (likely % of HP)",
+          "Active Damage": "op.gg 'Active Damage: 69() [6% / 6% / 100%]' - icon unnamed (likely % of HP)",
+          "Heal": "icon unnamed (likely AP)"
+        },
+        "damageType": "magic"
+      },
+      "sources": [
+        "https://op.gg/tft/meta-trends/champion/DA_18_Maokai",
+        "https://metabot.gg/en/TFT/18/champions/range",
+        "https://metabot.gg/en/TFT/18/champions/armor",
+        "https://metabot.gg/de_DE/TFT/18/champions/placement",
+        "https://metabot.gg/en/TFT/unit/DA_18_Maokai/overview",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-2"
+      ],
+      "conflicts": "Max mana: metabot en range page 90 vs metabot en armor page, de placement page and metabot unit page (30/100) 100. Official 18.2 notes: main patch 40/100 => 30/90, then mid-patch 30/90 => 30/100. Recorded 30/100.",
+      "confidence": "medium",
+      "notes": "op.gg 18.5 (no mana shown). Metabot unit page lists 3-star HP 3,726 vs op.gg 7726 and 2/3-star AD 144/259 vs op.gg 120/180 - metabot unit pages appear to use generic star multipliers; op.gg values kept."
+    },
+    {
+      "name": "Akali",
+      "cost": 1,
+      "traits": [
+        "Adaptor",
+        "Inferno",
+        "Ravager"
+      ],
+      "hp": [
+        650,
+        1170,
+        2106
+      ],
+      "ad": [
+        40,
+        60,
+        90
+      ],
+      "as": 0.75,
+      "armor": 35,
+      "mr": 35,
+      "range": 1,
+      "manaStart": 0,
+      "manaMax": 25,
+      "ability": {
+        "name": "Kunai Strike",
+        "text": "Throw a volley of kunai at the target, dealing 155/235/405 [AD][AP] physical damage. If the target is Burning, deal an additional 35/52/80 [AD] damage. Adaptor (AP): If the Ability kills, cast it again.",
+        "numbers": {
+          "Damage": [
+            155,
+            235,
+            405
+          ],
+          "Damage (AD part)": [
+            145,
+            220,
+            380
+          ],
+          "Damage (AP part)": [
+            10,
+            15,
+            25
+          ],
+          "Bonus Damage": [
+            35,
+            52,
+            80
+          ]
+        },
+        "scaling": {
+          "Damage": "AD + AP; op.gg '155 = 145([AD]) + 10([AP]) [ 145 / 220 / 380 ]', AP part [10/15/25]",
+          "Bonus Damage": "AD"
+        },
+        "damageType": "physical"
+      },
+      "sources": [
+        "https://op.gg/tft/meta-trends/champion/DA_18_Akali_AD",
+        "https://metabot.gg/en/TFT/unit/DA_18_Akali_AD/overview",
+        "https://metabot.gg/en/TFT/18/champions/range",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-2"
+      ],
+      "conflicts": "Metabot unit page lists 2/3-star AD 72/130 vs op.gg 60/90 (metabot unit pages appear to use a different star multiplier).",
+      "confidence": "high",
+      "notes": "op.gg 18.5, AD-form page (correct ID is DA_18_Akali_AD; DA_18_Akali and DA_Akali18 return the ranking list). Range 1 and mana 0/25 also on metabot unit page; 18.2 notes AD form mana 0/30 => 0/25."
+    },
+    {
+      "name": "Taric",
+      "cost": 5,
+      "traits": [
+        "Emerald Aspect",
+        "Vanguard"
+      ],
+      "hp": [
+        1300,
+        2340,
+        8212
+      ],
+      "ad": [
+        55,
+        83,
+        124
+      ],
+      "as": 0.75,
+      "armor": 70,
+      "mr": 70,
+      "range": 1,
+      "manaStart": 0,
+      "manaMax": 65,
+      "ability": {
+        "name": "Emerald Radiance",
+        "text": "Passive: The first time Taric or his paired ally drops below 50% Health, unleash emerald energy from both of them, granting 270/501/14212 [HP] Shield to allies within 3 Hexes for 3/3/99 seconds. Active: Restore 275/450/3000 [AP] Health. Taric and his paired ally deal 130/200/1000 [AP] bonus magic damage on their next 2 attacks.",
+        "numbers": {
+          "Shield": [
+            270,
+            501,
+            14212
+          ],
+          "Shield (bracket values)": [
+            75,
+            150,
+            10000
+          ],
+          "Shield duration (s)": [
+            3,
+            3,
+            99
+          ],
+          "Heal": [
+            275,
+            450,
+            3000
+          ],
+          "Damage": [
+            130,
+            200,
+            1000
+          ]
+        },
+        "scaling": {
+          "Shield": "HP + flat; op.gg 'Shield: 270 = 195([HP]) + 75 [ 75 / 150 / 10000 ]'",
+          "Heal": "AP",
+          "Damage": "AP"
+        },
+        "damageType": "magic"
+      },
+      "sources": [
+        "https://op.gg/tft/meta-trends/champion/DA_Taric18",
+        "https://metabot.gg/en/TFT/18/champions/armor",
+        "https://metabot.gg/fr_FR/TFT/18/champions/attack-speed",
+        "https://metabot.gg/de_DE/TFT/18/champions/placement",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-5",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-3",
+        "https://metabot.gg/en/TFT/unit/DA_Taric18/overview"
+      ],
+      "conflicts": "Max mana: op.gg (18.5) 0/65, metabot unit page 0/65, metabot fr table 65 vs metabot en armor and de placement tables 70 (possibly misread rows). Armor/MR: op.gg 70/70 and 18.5 notes 'Resists: 65 => 70'; metabot unit page and fr table 65/65 (pre-18.5).",
+      "confidence": "medium",
+      "notes": "op.gg 18.5. 18.5 notes damage 100/150 => 130/200 AP consistent; 18.3 notes passive shield base 100/225 => 75/150 and heal 250/375 => 275/450 consistent."
+    }
+  ],
+  "traits": [
+    {
+      "name": "Brawler",
+      "breakpoints": [
+        2,
+        4,
+        6
+      ],
+      "effectText": "Your team gains 120 max Health. Brawlers gain more. (2) 25% Health (4) 40% Health (6) 65% Health",
+      "values": {
+        "Team max Health (flat)": [
+          120,
+          120,
+          120
+        ],
+        "Brawler bonus Health %": [
+          25,
+          40,
+          65
+        ]
+      },
+      "sources": [
+        "https://metabot.gg/en/TFT/trait/DA_18_Brawler/overview",
+        "https://tftraits.com/set18"
+      ],
+      "confidence": "high",
+      "notes": "metabot (updated Oct 27) and tftraits agree."
+    },
+    {
+      "name": "Adaptor",
+      "breakpoints": [
+        2,
+        3,
+        4
+      ],
+      "effectText": "Innate: Adaptor abilities change depending on if their Attack Damage or Ability Power is higher. Adaptors gain Ability Power or Attack Damage, depending on which is higher. (2) 25% (3) 35% (4) 50%",
+      "values": {
+        "AD or AP %": [
+          25,
+          35,
+          50
+        ]
+      },
+      "sources": [
+        "https://metabot.gg/en/TFT/trait/DA_18_Adaptor/overview",
+        "https://tftraits.com/set18"
+      ],
+      "confidence": "high",
+      "notes": "metabot shows '(2) 25% OR' etc. with the remainder of the text not rendered; tftraits gives 25%/35%/50% AD or AP."
+    },
+    {
+      "name": "Blackthorn",
+      "breakpoints": [
+        2,
+        4,
+        6
+      ],
+      "effectText": "The ally on the Blackthorn hex is sacrificed before combat, granting your champions Health. Blackthorn champions gain additional stats based on the sacrifice's Role, Star Level, and Cost. (2) 175 Health (4) 350 Health; Bonus is 30% stronger (6) 600 Health; Bonus is 60% stronger [Official 18.5 notes: '6 Piece Enhanced Bonus: 60% => 50%'; 'Base AP Sacrifice: 12% Damage Amp + 2 Mana Regen => 10% Damage Amp + 2 Mana Regen'.]",
+      "values": {
+        "Team Health": [
+          175,
+          350,
+          600
+        ],
+        "Bonus stronger %": [
+          null,
+          30,
+          50
+        ],
+        "AP sacrifice Damage Amp %": [
+          10,
+          10,
+          10
+        ]
+      },
+      "sources": [
+        "https://metabot.gg/en/TFT/trait/DA_18_Blackthorn/overview",
+        "https://tftraits.com/set18",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-5",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-2"
+      ],
+      "confidence": "medium",
+      "notes": "Conflict: metabot (updated Oct 23) 6-piece 'Bonus is 60% stronger' vs official 18.5 notes 60% => 50%; recorded 50. tftraits Health 175/350/600 (run-together '2175/4350/6600'), consistent with official 18.2 notes 'Health: 175/300/550 => 175/350/600'."
+    },
+    {
+      "name": "Blossom",
+      "breakpoints": [
+        3,
+        5,
+        7,
+        9,
+        11
+      ],
+      "effectText": "After combat, your Wisps are empowered. Blossom champions gain Attack Damage, Ability Power, and 10% max Health. (3) Wisps are upgraded, 12% AD AP (5) Wisps are in every shop, 30% AD AP (7) Gain 4 gold after buying a Wisp, 50% AD AP (9) You can buy 2 Wisps per round, 55% AD AP (11) Wisps overflow with power, 100% AD AP",
+      "values": {
+        "AD/AP %": [
+          12,
+          30,
+          50,
+          55,
+          100
+        ],
+        "Max Health %": [
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      "sources": [
+        "https://metabot.gg/en/TFT/trait/DA_18_Blossom/overview",
+        "https://tftraits.com/set18",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-4"
+      ],
+      "confidence": "high",
+      "notes": "metabot and tftraits agree; official 18.4 notes 'AD/AP: 12/30/45/50% => 12/30/50/55%' consistent."
+    },
+    {
+      "name": "Coven",
+      "breakpoints": [
+        3,
+        4,
+        5,
+        7
+      ],
+      "effectText": "Gather Essence by killing champions, plus more by losing player combat. Beginning at 40 Essence, choose to convert Essence to rewards or continue gathering Essence. Each reward requires increasing amounts of Essence. (3) 2 Essence per kill, 22 Essence per loss (4) 2 per kill, 28 per loss (5) 3 per kill, 35 per loss (7) 10 per kill, 60 per loss",
+      "values": {
+        "Essence per kill": [
+          2,
+          2,
+          3,
+          10
+        ],
+        "Essence per loss": [
+          22,
+          28,
+          35,
+          60
+        ]
+      },
+      "sources": [
+        "https://metabot.gg/en/TFT/trait/DA_18_Coven/overview",
+        "https://tftraits.com/set18",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-2"
+      ],
+      "confidence": "medium",
+      "notes": "Per-loss values consistent with official 18.2 notes 'Essence Per Loss: 18/25/32/60 => 22/28/35/60'. tftraits digits ambiguous (run-together)."
+    },
+    {
+      "name": "Defender",
+      "breakpoints": [
+        2,
+        4,
+        6
+      ],
+      "effectText": "Your team gains 12 Armor and Magic Resist. Defenders gain more. (2) 25 (4) 60 (6) 115",
+      "values": {
+        "Team Armor/MR": [
+          12,
+          12,
+          12
+        ],
+        "Defender Armor/MR": [
+          25,
+          60,
+          115
+        ]
+      },
+      "sources": [
+        "https://metabot.gg/en/TFT/trait/DA_18_Defender/overview",
+        "https://tftraits.com/set18",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-2"
+      ],
+      "confidence": "high",
+      "notes": "Official 18.2 notes 'Defender Resists: 25/60/120 => 25/60/115' consistent."
+    },
+    {
+      "name": "Elderwood",
+      "breakpoints": [
+        3,
+        5,
+        7,
+        9,
+        11
+      ],
+      "effectText": "Gain placeable Elderwood plants. (3) A Stonebark Tree and a Lifebloom (5) A second Stonebark Tree and Stonebark Trees gain 200 Health (7) and the Deepwood Protector (9) Plants star up to 2-star (11) Plants star up to 3-star and the forest comes to life",
+      "values": {
+        "Stonebark bonus Health (5)": [
+          null,
+          200,
+          null,
+          null,
+          null
+        ],
+        "9-piece summon bonus Health %": [
+          null,
+          null,
+          null,
+          125,
+          null
+        ]
+      },
+      "sources": [
+        "https://metabot.gg/en/TFT/trait/DA_18_Elderwood/overview",
+        "https://tftraits.com/set18",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-5",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-4"
+      ],
+      "confidence": "medium",
+      "notes": "Plant stats not shown on trait pages. 125% from official 18.5 notes '9-Piece Summon Bonus Health: 140% => 125%'. 18.4 notes: Deepwood Protector Mana 20/70 => 20/60, Resists 65 => 70."
+    },
+    {
+      "name": "Executioner",
+      "breakpoints": [
+        2,
+        3,
+        4
+      ],
+      "effectText": "(2) Executioners gain Precision and 15% Critical Strike Chance. (3) Additionally, enemies bleed for X% bonus true damage over 3 seconds. (4) Bleed damage increased to Y%. [metabot text: X=30, Y=40; tftraits and official 18.4 notes: 25 / 35]",
+      "values": {
+        "Crit Chance %": [
+          15,
+          15,
+          15
+        ],
+        "Bleed bonus true damage %": [
+          null,
+          25,
+          35
+        ]
+      },
+      "sources": [
+        "https://metabot.gg/en/TFT/trait/DA_18_Executioner/overview",
+        "https://tftraits.com/set18",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-4"
+      ],
+      "confidence": "medium",
+      "notes": "Conflict: metabot (updated Oct 23) shows bleed 30%/40%; tftraits shows 25%/35% and official 18.4 notes say 'Bleed Damage: 30/40% => 25/35%'. Recorded 25/35."
+    },
+    {
+      "name": "Fae",
+      "breakpoints": [
+        2,
+        4
+      ],
+      "effectText": "Your team's damage, healing, and shielding attracts Pixies. Each Pixie grants Fae champions Attack Damage and Ability Power, and after they fall below 50% Health, they heal for each Pixie. (2) 4.5% and 3% Heal. (4) 7% and 5% Heal. After attracting 7 Pixies, start attracting Golden Pixies instead which grant gold.",
+      "values": {
+        "AD/AP % per Pixie": [
+          4.5,
+          7
+        ],
+        "Heal % per Pixie": [
+          3,
+          5
+        ],
+        "Golden Pixie after N Pixies": [
+          null,
+          7
+        ]
+      },
+      "sources": [
+        "https://tftraits.com/set18",
+        "https://metabot.gg/en/TFT/trait/DA_18_Fae/overview",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-4",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-5"
+      ],
+      "confidence": "medium",
+      "notes": "Conflict: metabot (last updated Oct 9, stale) shows '(2) 5% and 2.5% Heal', '(4) 8% and 4% Heal'. tftraits shows 4.5%/7% AD/AP and 3%/5% heal; official 18.4 notes 'AD/AP Per Pixie: 5/8% => 4.5/7%' and 18.5 notes 'Heal: 2.5/4% => 3/5%'. Recorded the tftraits/patch-note values. 18.5 also lowered 4th/5th/6th Pixie thresholds to 25,000/60,000/100,000."
+    },
+    {
+      "name": "Hunter",
+      "breakpoints": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "effectText": "Hunters gain Attack Damage. If a Hunter hasn't swapped targets for 3 seconds, they gain 10% Damage Amp. (2) 20% AD (3) 30% AD (4) 40% AD (5) 60% AD",
+      "values": {
+        "AD %": [
+          20,
+          30,
+          40,
+          60
+        ],
+        "Damage Amp %": [
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      "sources": [
+        "https://tftraits.com/set18",
+        "https://metabot.gg/en/TFT/trait/DA_18_Hunter/overview",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-3",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-2",
+        "https://tactics.tools/info/traits"
+      ],
+      "confidence": "low",
+      "notes": "4-piece unresolved. Readings: official 18.3 notes 'Hunter Bonus AD: 20/30/45/65% => 20/30/40/60%' (recorded); tftraits (paraphrased by fetch tool) 20/30/45/60; tactics.tools 20/30/45/65 (pre-18.3); metabot page (Sep 30) rendered no numbers. 3 s from 18.2 notes 'Damage Amp targeting duration 4s => 3s'."
+    },
+    {
+      "name": "Inferno",
+      "breakpoints": [
+        2,
+        3,
+        5,
+        7
+      ],
+      "effectText": "Inferno damage Burns and Wounds enemies for 3 seconds. Inferno Burns stack with other Burns. (2) 1% Burn, 33% Wound (3) After combat, 1 of your shop slots without an Inferno champion ignites, rolling a champion one tier higher (5) Ignite 2 shop slots, X% Burn (7) Ignite 4 shop slots, Y% Burn [metabot X/Y = 3.5/4.5; tftraits and official 18.3 notes 3/4]",
+      "values": {
+        "Burn %": [
+          1,
+          1,
+          3,
+          4
+        ],
+        "Wound %": [
+          33,
+          33,
+          33,
+          33
+        ],
+        "Ignited shop slots": [
+          0,
+          1,
+          2,
+          4
+        ]
+      },
+      "sources": [
+        "https://metabot.gg/en/TFT/trait/DA_18_Inferno/overview",
+        "https://tftraits.com/set18",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-3"
+      ],
+      "confidence": "medium",
+      "notes": "Conflict: metabot (Oct 23) Burn 3.5%/4.5% at 5/7; tftraits '3-4%' and official 18.3 notes 'Inferno Burn Amount: 1/1/3.5/4.5% => 1/1/3/4%'. Recorded 3/4. Wound: metabot 33%, tftraits paraphrase '3% Wound' (likely run-together digits) - 33 kept, low confidence on Wound."
+    },
+    {
+      "name": "Invoker",
+      "breakpoints": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "effectText": "Your team gains Mana Regen, increased for Invokers. (tftraits: 1/3 at 2, 1/4 at 3, 2/6 at 4, 2/8 at 5 as team/Invoker)",
+      "values": {
+        "Team Mana Regen": [
+          1,
+          1,
+          2,
+          2
+        ],
+        "Invoker Mana Regen": [
+          3,
+          4,
+          6,
+          8
+        ]
+      },
+      "sources": [
+        "https://tftraits.com/set18",
+        "https://metabot.gg/en/TFT/trait/DA_18_Invoker/overview",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-3"
+      ],
+      "confidence": "medium",
+      "notes": "Conflict: metabot (Oct 22) shows '(2) 1 | 2 (3) 1 | 3 (4) 2 | 5 (5) 2 | 8'. tftraits 1/3, 1/4, 2/6, 2/8 matches official 18.3 notes 'Invoker Mana Regen: 3/4/6/9 => 3/4/6/8'. Recorded tftraits values."
+    },
+    {
+      "name": "Lunar",
+      "breakpoints": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "effectText": "Lunar champions and adjacent allies gain Attack Speed and Ability Power. Lunar champions gain 100% more. (2) 7% AS, 7% AP (3) 10% AS, 12% AP (4) 14% AS, 16% AP (5) 18% AS, 20% AP",
+      "values": {
+        "AS %": [
+          7,
+          10,
+          14,
+          18
+        ],
+        "AP %": [
+          7,
+          12,
+          16,
+          20
+        ]
+      },
+      "sources": [
+        "https://metabot.gg/en/TFT/trait/DA_18_Lunar/overview",
+        "https://tftraits.com/set18",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-4"
+      ],
+      "confidence": "high",
+      "notes": "metabot (Oct 27) and tftraits agree; official 18.4 notes 'Lunar: Ability Power: 7/10/14/18% => 7/12/16/20%'."
+    },
+    {
+      "name": "Rapidfire",
+      "breakpoints": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "effectText": "Your team gains 10% Attack Speed. Rapidfire champions gain more on every attack, up to 10 stacks. (2) +3% AS per Attack (3) +5% (4) +7% (5) +10%",
+      "values": {
+        "Team AS %": [
+          10,
+          10,
+          10,
+          10
+        ],
+        "AS % per attack": [
+          3,
+          5,
+          7,
+          10
+        ],
+        "Max stacks": [
+          10,
+          10,
+          10,
+          10
+        ]
+      },
+      "sources": [
+        "https://tftraits.com/set18",
+        "https://metabot.gg/en/TFT/trait/DA_18_Rapidfire/overview",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-5",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-2"
+      ],
+      "confidence": "medium",
+      "notes": "Conflict: metabot (Oct 26) shows 3/5/9/15 (18.1 launch values). tftraits 3/5/7/10 matches official 18.2 (3/5/9/15 => 3/5/8/12) then 18.5 ('AS Per Attack: 3/5/8/12% => 3/5/7/10%'). Recorded 3/5/7/10."
+    },
+    {
+      "name": "Sprykin",
+      "breakpoints": [
+        3,
+        5,
+        7
+      ],
+      "effectText": "Gain the Big Furry Friend. Drop a Sprykin on the BFF to pick its Rider. (3) The Rider gains 15% Health and 15% AS (5) 40% Health 35% AS, and 50% of the BFF's Ability applies to your Sprykin champions. (7) 55% Health 55% AS, and 100% of the BFF's Ability applies to your Sprykin champions.",
+      "values": {
+        "Rider Health %": [
+          15,
+          40,
+          55
+        ],
+        "Rider AS %": [
+          15,
+          35,
+          55
+        ],
+        "BFF Ability applied %": [
+          0,
+          50,
+          100
+        ]
+      },
+      "sources": [
+        "https://tftraits.com/set18",
+        "https://metabot.gg/en/TFT/trait/DA_18_Sprykin/overview",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-4"
+      ],
+      "confidence": "medium",
+      "notes": "Conflict: metabot (Oct 24) shows 7-piece '45% Health 45% AS'; tftraits shows 55%/55% and official 18.4 notes 'Sprykin: (7) Stats: 45% HP + 45% AS => 55% HP + 55% AS'. Recorded 55/55. 3-piece BFF share 0 per tftraits paraphrase ('rises from 0% to 100%')."
+    },
+    {
+      "name": "Solar",
+      "breakpoints": [
+        3
+      ],
+      "effectText": "(3) Your champions gain a 5% max Health shield and deal 8% bonus magic damage. Gain additional bonuses for each unique 3-star champion: 1: Increase shield and magic damage by 1% for each 3-star. 3: 15% AS and 15 Armor MR. 5: Convert 40% of the bonus magic damage to true damage. 8: Every 4 seconds of combat, a 3-star champion ascends to 4-star.",
+      "values": {
+        "Shield % max Health": [
+          5
+        ],
+        "Bonus magic damage %": [
+          8
+        ],
+        "Per unique 3-star increase %": [
+          1
+        ],
+        "Three 3-stars AS %": [
+          15
+        ],
+        "Three 3-stars Armor/MR": [
+          12
+        ],
+        "Five 3-stars true damage conversion %": [
+          40
+        ]
+      },
+      "sources": [
+        "https://metabot.gg/en/TFT/trait/DA_18_Solar/overview",
+        "https://tftraits.com/set18",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-2"
+      ],
+      "confidence": "medium",
+      "notes": "3-star milestones are 1/3/5/8 unique 3-stars (not unit-count breakpoints). Conflict: metabot (Oct 22) shows '15 Armor MR' at three 3-stars; official 18.2 notes 'Three 3* Armor and Magic Resist: 15 => 12' (and AS 18% => 15%, per-3* 1.5% => 1%, base magic damage 7% => 8%). Recorded 12. tftraits notes 'Field 3 Solar and 3 Lunar champions to activate Eclipse'."
+    },
+    {
+      "name": "Summoner",
+      "breakpoints": [
+        2,
+        3
+      ],
+      "effectText": "Summoners empower their summons in different ways. Yorick: +30% Health. Azir: +20% Damage. Mama Beak: +45% Damage. Zyra: +4 Plant Attacks. (2) Empower Summons (3) Improve each effect by 50%",
+      "values": {
+        "Yorick summon Health %": [
+          30,
+          null
+        ],
+        "Azir soldier Damage %": [
+          20,
+          null
+        ],
+        "Mama Beak summon Damage %": [
+          45,
+          null
+        ],
+        "Zyra extra Plant Attacks": [
+          4,
+          null
+        ],
+        "Effect improvement at 3 %": [
+          0,
+          50
+        ]
+      },
+      "sources": [
+        "https://metabot.gg/en/TFT/trait/DA_18_Summoner/overview",
+        "https://tftraits.com/set18"
+      ],
+      "confidence": "medium",
+      "notes": "metabot shows only Mama Beak's number (45%); Yorick 30%, Azir 20%, Zyra 4 from tftraits (fetch-tool paraphrase). 3-piece values = 50% better; not stated as numbers."
+    },
+    {
+      "name": "Vanguard",
+      "breakpoints": [
+        2,
+        4,
+        6
+      ],
+      "effectText": "At Combat Start and after dropping below 50% Health, Vanguards gain a max Health Shield for 10 seconds. (2) 18% max Health (4) 30% max Health (6) 40% max Health. Gain 5% Durability while Shielded.",
+      "values": {
+        "Shield % max Health": [
+          18,
+          30,
+          40
+        ],
+        "Durability % while shielded": [
+          0,
+          0,
+          5
+        ]
+      },
+      "sources": [
+        "https://metabot.gg/en/TFT/trait/DA_18_Vanguard/overview",
+        "https://tftraits.com/set18"
+      ],
+      "confidence": "high",
+      "notes": "metabot omits the Durability number; 5% from tftraits. Shield duration 10 s from metabot."
+    },
+    {
+      "name": "Spellweaver",
+      "breakpoints": [
+        2,
+        4,
+        6
+      ],
+      "effectText": "Your team gains 10% Ability Power. Spellweavers gain more, plus additional Ability Power when a Spellweaver casts an ability. (2) 10% AP, +1% AP per cast (4) 30% AP, +1% AP per cast (6) 55% AP, +2% AP per cast",
+      "values": {
+        "Spellweaver AP %": [
+          10,
+          30,
+          55
+        ],
+        "AP % per cast": [
+          1,
+          1,
+          2
+        ],
+        "Team AP %": [
+          10,
+          10,
+          10
+        ]
+      },
+      "sources": [
+        "https://metabot.gg/de_DE/TFT/trait/DA_18_Spellweaver/overview",
+        "https://tftraits.com/set18"
+      ],
+      "confidence": "high",
+      "notes": "metabot German page (Zaubermeister, updated Oct 27) and tftraits agree. Quoted text translated from German by me."
+    },
+    {
+      "name": "Juggernaut",
+      "breakpoints": [
+        2,
+        4,
+        6
+      ],
+      "effectText": "Your team gains Durability. Juggernauts gain more. tftraits: (2) 4% or 20% (4) 4% or 30% (6) 8% or 42%",
+      "values": {
+        "Team Durability %": [
+          4,
+          4,
+          8
+        ],
+        "Juggernaut Durability %": [
+          20,
+          30,
+          42
+        ]
+      },
+      "sources": [
+        "https://tftraits.com/set18",
+        "https://tactics.tools/info/traits",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-4"
+      ],
+      "confidence": "medium",
+      "notes": "metabot Juggernaut page could not be fetched. tftraits (run-together digits '24% or 20%, 44% or 30%, 68% or 42%') matches official 18.4 notes 'Juggernaut Durability: 20/33/45% => 20/30/42%'. tactics.tools shows stale 20/33/45 (team 4/4/8)."
+    },
+    {
+      "name": "Ravager",
+      "breakpoints": [
+        2,
+        4,
+        6
+      ],
+      "effectText": "Ravagers gain 10% Omnivamp and deal bonus damage, doubled against enemies below 50% Health. (2) 12% (4) 25% (6) 40%",
+      "values": {
+        "Omnivamp %": [
+          10,
+          10,
+          10
+        ],
+        "Bonus damage %": [
+          12,
+          25,
+          40
+        ]
+      },
+      "sources": [
+        "https://tftraits.com/set18",
+        "https://tactics.tools/info/traits"
+      ],
+      "confidence": "high",
+      "notes": "tftraits and tactics.tools agree. metabot page could not be fetched."
+    },
+    {
+      "name": "Riftbeast",
+      "breakpoints": [
+        3,
+        5,
+        7,
+        10
+      ],
+      "effectText": "(3) Use the Alpha Mark to grant a Riftbeast their unique Buff (5) Every 3 combats, your next shop is overrun with Riftbeasts (7) Riftbeasts grow on combat start and every 5 seconds, gaining 5% AD, 5% AP, 5% AS, +5 Armor, +5 MR, +50 Health, and +1 Mana Regen (10) +2 maximum team size",
+      "values": {
+        "Growth AD/AP/AS % (7)": [
+          null,
+          null,
+          5,
+          5
+        ],
+        "Growth Armor/MR (7)": [
+          null,
+          null,
+          5,
+          5
+        ],
+        "Growth Health (7)": [
+          null,
+          null,
+          50,
+          50
+        ],
+        "Growth Mana Regen (7)": [
+          null,
+          null,
+          1,
+          1
+        ],
+        "Team size bonus": [
+          0,
+          0,
+          0,
+          2
+        ]
+      },
+      "sources": [
+        "https://tactics.tools/info/traits",
+        "https://tftraits.com/set18",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-5"
+      ],
+      "confidence": "medium",
+      "notes": "metabot page could not be fetched. 5% matches official 18.5 notes 'Riftbeast (7) AD/AP: 6% => 5%'. Whether the 7-piece growth carries into 10 is my reading (values repeated at 10 for shape) - low confidence. Individual Riftbeast buffs are on unit pages (Scarlet/Teal/Purple/Grey/Green/Orange/Slate/Red/Blue/Elder Dragon Buff)."
+    },
+    {
+      "name": "Primal",
+      "breakpoints": [
+        2,
+        4
+      ],
+      "effectText": "Choose one of four Primal Blessings at 2; choose a second blessing at 4.",
+      "values": {},
+      "sources": [
+        "https://tftraits.com/set18",
+        "https://tactics.tools/info/traits"
+      ],
+      "confidence": "low",
+      "notes": "Blessing values not found (tactics.tools shows template placeholders; metabot page could not be fetched)."
+    },
+    {
+      "name": "Flora Fatalis",
+      "breakpoints": [
+        1,
+        2
+      ],
+      "effectText": "Flora Fatalis champions harvest enemies on takedown. (1) 10 Mana (2) also heal the lowest Health ally for 7% max Health.",
+      "values": {
+        "Mana on takedown": [
+          10,
+          10
+        ],
+        "Lowest-ally heal % max Health": [
+          null,
+          7
+        ]
+      },
+      "sources": [
+        "https://tftraits.com/set18",
+        "https://tactics.tools/info/traits",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-5"
+      ],
+      "confidence": "medium",
+      "notes": "tactics.tools shows 8% (pre-18.5); tftraits shows 7% and official 18.5 notes 'Max Health Healing: 8% => 7%'. metabot page could not be fetched."
+    },
+    {
+      "name": "Caustic",
+      "breakpoints": [
+        1
+      ],
+      "effectText": "Caustic damage 30% Shreds and Sunders enemies for 4 seconds. Shred: Reduce Magic Resist. Sunder: Reduce Armor.",
+      "values": {
+        "Shred/Sunder %": [
+          30
+        ],
+        "Duration (s)": [
+          4
+        ]
+      },
+      "sources": [
+        "https://metabot.gg/en/TFT/trait/DA_18_Caustic/overview",
+        "https://tftraits.com/set18"
+      ],
+      "confidence": "high",
+      "notes": "Unique trait (Kog'Maw). Breakpoint 1 is my notation for a unique trait."
+    },
+    {
+      "name": "Rival",
+      "breakpoints": [
+        1,
+        2
+      ],
+      "effectText": "(1) Only active while fielding 1 Rival. Rivals collect takedowns, gaining 3 if they takedown another Rival. Takedowns evolve Kha'Zix, permanently granting him your choice of Executioner, Rapidfire, Ravager, or Spellweaver. Rengar grants 2/3/5 gold every 8 takedowns. After 30 takedowns, your team gains 5% Attack Damage plus 0.2% AD per additional takedown. (2) Rivals can be fielded together, and their abilities grant each other bonuses.",
+      "values": {
+        "Takedowns for killing a Rival": [
+          3,
+          null
+        ],
+        "Rengar gold per 8 takedowns (by star)": [
+          "2/3/5",
+          null
+        ],
+        "Team AD % after 30 takedowns": [
+          5,
+          null
+        ],
+        "AD % per extra takedown": [
+          0.2,
+          null
+        ]
+      },
+      "sources": [
+        "https://metabot.gg/en/TFT/trait/DA_18_Rival/overview",
+        "https://tftraits.com/set18"
+      ],
+      "confidence": "medium",
+      "notes": "metabot (Oct 25). The '(2)' unit count is not explicit on the page. tftraits lists breakpoint 1."
+    },
+    {
+      "name": "Attuned",
+      "breakpoints": [
+        1
+      ],
+      "effectText": "Alune's moon phase advances after each cast. At half-full or below: 5% Durability. Above: 7% Damage Amp.",
+      "values": {
+        "Durability %": [
+          5
+        ],
+        "Damage Amp %": [
+          7
+        ]
+      },
+      "sources": [
+        "https://tftraits.com/set18",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-5"
+      ],
+      "confidence": "low",
+      "notes": "Single source text (tftraits, paraphrased by fetch tool). 5% Durability matches official 18.5 notes 'Attuned Durability: 7% => 5%'. metabot page could not be fetched."
+    },
+    {
+      "name": "Apex Predator",
+      "breakpoints": [
+        1
+      ],
+      "effectText": "Elder Dragon takes up 2 team slots and grants +2 to the Riftbeast trait.",
+      "values": {
+        "Team slots used": [
+          2
+        ],
+        "Riftbeast count bonus": [
+          2
+        ]
+      },
+      "sources": [
+        "https://tftraits.com/set18",
+        "https://tactics.tools/info/traits"
+      ],
+      "confidence": "high",
+      "notes": "Unique (Elder Dragon)."
+    },
+    {
+      "name": "Avatar",
+      "breakpoints": [
+        1
+      ],
+      "effectText": "An Avatar on your bench or board transforms other Avatars in your shop into that Avatar's Trait. The chosen Trait counts twice for Trait bonuses.",
+      "values": {
+        "Trait count multiplier": [
+          2
+        ]
+      },
+      "sources": [
+        "https://tftraits.com/set18",
+        "https://tactics.tools/info/traits",
+        "https://op.gg/tft/meta-trends/champion"
+      ],
+      "confidence": "high",
+      "notes": "Unique (Lux). op.gg ranking list shows Lux variants per origin (Fae, Inferno, Primal, Lunar, Solar, Blackthorn, Elderwood)."
+    },
+    {
+      "name": "Bounty Seeker",
+      "breakpoints": [
+        1
+      ],
+      "effectText": "Choose a bounty. Your strongest Draven progresses on it to earn the reward, then you choose another.",
+      "values": {},
+      "sources": [
+        "https://tftraits.com/set18",
+        "https://tactics.tools/info/traits"
+      ],
+      "confidence": "medium",
+      "notes": "Unique (Draven). Bounty requirement numbers changed per patch notes (18.2 mid-patch) - not recorded."
+    },
+    {
+      "name": "Eclipse",
+      "breakpoints": [
+        1
+      ],
+      "effectText": "After 8 seconds of combat, kill the lowest Health enemy, repeating every 3.5 seconds. (Activated by fielding 3 Solar and 3 Lunar champions.)",
+      "values": {
+        "Initial delay (s)": [
+          8
+        ],
+        "Repeat interval (s)": [
+          3.5
+        ]
+      },
+      "sources": [
+        "https://tftraits.com/set18",
+        "https://tactics.tools/info/traits",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-4"
+      ],
+      "confidence": "medium",
+      "notes": "tactics.tools shows 10 s (pre-18.4); tftraits 8 s and official 18.4 notes 'Initial Delay before execution: 10s => 8s'. Activation condition from tftraits Solar entry."
+    },
+    {
+      "name": "Emerald Aspect",
+      "breakpoints": [
+        1
+      ],
+      "effectText": "Drag an ally onto your strongest Taric to pair them, granting the ally bonuses from Taric's Ability.",
+      "values": {},
+      "sources": [
+        "https://tftraits.com/set18",
+        "https://tactics.tools/info/traits"
+      ],
+      "confidence": "high",
+      "notes": "Unique (Taric)."
+    },
+    {
+      "name": "Greenfather",
+      "breakpoints": [
+        1
+      ],
+      "effectText": "Gain 1/10 seed when your strongest Ivern casts, plus 3/30 every combat. Ivern uses 5 seeds to grow a hex that grants a bonus to its occupant.",
+      "values": {
+        "Seeds per cast": [
+          "1/10"
+        ],
+        "Seeds per combat": [
+          "3/30"
+        ],
+        "Seeds per hex": [
+          5
+        ]
+      },
+      "sources": [
+        "https://tactics.tools/info/traits",
+        "https://tftraits.com/set18",
+        "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-4"
+      ],
+      "confidence": "low",
+      "notes": "Single detailed source (tactics.tools, which is stale for some other traits). '1/10', '3/30' presumably per star level - not verified. 18.4 notes changed Greenfather hex values: Damage Amp 8/12% => 6/10%, Bonus % HP 8/12% => 6/10%, Resists 8/12 => 10/14."
+    },
+    {
+      "name": "Monolith",
+      "breakpoints": [
+        1
+      ],
+      "effectText": "Monoliths gain 10 Armor and Magic Resist for each enemy targeting them.",
+      "values": {
+        "Armor/MR per targeting enemy": [
+          10
+        ]
+      },
+      "sources": [
+        "https://tftraits.com/set18",
+        "https://tactics.tools/info/traits"
+      ],
+      "confidence": "high",
+      "notes": "Unique (Malphite)."
+    },
+    {
+      "name": "Old Growth",
+      "breakpoints": [
+        1
+      ],
+      "effectText": "When an enemy within 3/10/10 hexes dies, your strongest Old Growth champion gains 30/100/1000 permanent max Health.",
+      "values": {
+        "Radius (hexes) by star": [
+          [
+            3,
+            10,
+            10
+          ]
+        ],
+        "Permanent max Health by star": [
+          [
+            30,
+            100,
+            1000
+          ]
+        ]
+      },
+      "sources": [
+        "https://tactics.tools/info/traits",
+        "https://tftraits.com/set18"
+      ],
+      "confidence": "medium",
+      "notes": "Unique (Maokai). tftraits gives 30 permanent max Health per enemy death within 3 hexes (1-star); per-star values from tactics.tools only."
+    },
+    {
+      "name": "Thornmaiden",
+      "breakpoints": [
+        1
+      ],
+      "effectText": "Your team gains 5% Durability, increasing to 10% if 6 or more Zyra plants are alive.",
+      "values": {
+        "Team Durability %": [
+          5
+        ],
+        "Durability % with 6+ plants": [
+          10
+        ]
+      },
+      "sources": [
+        "https://tftraits.com/set18",
+        "https://tactics.tools/info/traits"
+      ],
+      "confidence": "high",
+      "notes": "Unique (Zyra)."
+    }
+  ]
+}

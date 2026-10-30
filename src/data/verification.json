@@ -1,0 +1,1292 @@
+{
+ "generated": "2026-10-27",
+ "units": {
+  "akali": {
+   "status": "verified",
+   "statConflicts": [],
+   "ability": {
+    "total": 2,
+    "inBoth": 2,
+    "inOne": 0,
+    "derived": []
+   },
+   "agentConfidence": [
+    "high",
+    "medium"
+   ]
+  },
+  "camille": {
+   "status": "verified",
+   "statConflicts": [],
+   "ability": {
+    "total": 3,
+    "inBoth": 3,
+    "inOne": 0,
+    "derived": []
+   },
+   "agentConfidence": [
+    "high",
+    "high"
+   ]
+  },
+  "cinderling": {
+   "status": "verified",
+   "statConflicts": [],
+   "ability": {
+    "total": 3,
+    "inBoth": 3,
+    "inOne": 0,
+    "derived": []
+   },
+   "agentConfidence": [
+    "high",
+    "medium"
+   ]
+  },
+  "karma": {
+   "status": "verified",
+   "statConflicts": [],
+   "ability": {
+    "total": 2,
+    "inBoth": 2,
+    "inOne": 0,
+    "derived": []
+   },
+   "agentConfidence": [
+    "high",
+    "medium"
+   ]
+  },
+  "kobuko": {
+   "status": "review",
+   "statConflicts": [],
+   "ability": {
+    "total": 4,
+    "inBoth": 2,
+    "inOne": 0,
+    "derived": [
+     "#1 heal hp: 7/7/7",
+     "#2 empower hp: 10/10/10"
+    ]
+   },
+   "agentConfidence": [
+    "low",
+    "low"
+   ]
+  },
+  "leona": {
+   "status": "mostly",
+   "statConflicts": [],
+   "ability": {
+    "total": 1,
+    "inBoth": 0,
+    "inOne": 1,
+    "derived": []
+   },
+   "agentConfidence": [
+    "high",
+    "medium"
+   ]
+  },
+  "ornn": {
+   "status": "verified",
+   "statConflicts": [],
+   "ability": {
+    "total": 2,
+    "inBoth": 2,
+    "inOne": 0,
+    "derived": []
+   },
+   "agentConfidence": [
+    "medium",
+    "high"
+   ]
+  },
+  "pebbles": {
+   "status": "review",
+   "statConflicts": [],
+   "ability": {
+    "total": 1,
+    "inBoth": 0,
+    "inOne": 0,
+    "derived": [
+     "#1 dot ap: 460/690/1030"
+    ]
+   },
+   "agentConfidence": [
+    "medium",
+    "medium"
+   ]
+  },
+  "rakan": {
+   "status": "review",
+   "statConflicts": [
+    "ad: ours [45,67.5,101.3], A [45,68,101], B [0,0,0]"
+   ],
+   "ability": {
+    "total": 2,
+    "inBoth": 1,
+    "inOne": 0,
+    "derived": [
+     "#2 buffAlly value: 45/50/65"
+    ]
+   },
+   "agentConfidence": [
+    "medium",
+    "medium"
+   ]
+  },
+  "reksai": {
+   "status": "verified",
+   "statConflicts": [],
+   "ability": {
+    "total": 1,
+    "inBoth": 1,
+    "inOne": 0,
+    "derived": []
+   },
+   "agentConfidence": [
+    "high",
+    "high"
+   ]
+  },
+  "varus": {
+   "status": "review",
+   "statConflicts": [
+    "manaStart: ours 20, A 30, B 20",
+    "manaMax: ours 110, A 120, B 110"
+   ],
+   "ability": {
+    "total": 2,
+    "inBoth": 2,
+    "inOne": 0,
+    "derived": []
+   },
+   "agentConfidence": [
+    "low",
+    "medium"
+   ]
+  },
+  "veigar": {
+   "status": "verified",
+   "statConflicts": [],
+   "ability": {
+    "total": 1,
+    "inBoth": 1,
+    "inOne": 0,
+    "derived": []
+   },
+   "agentConfidence": [
+    "high",
+    "medium"
+   ]
+  },
+  "xayah": {
+   "status": "review",
+   "statConflicts": [],
+   "ability": {
+    "total": 2,
+    "inBoth": 1,
+    "inOne": 0,
+    "derived": [
+     "#2 empower ad: 162/160/163"
+    ]
+   },
+   "agentConfidence": [
+    "high",
+    "medium"
+   ]
+  },
+  "yorick": {
+   "status": "verified",
+   "statConflicts": [],
+   "ability": {
+    "total": 2,
+    "inBoth": 2,
+    "inOne": 0,
+    "derived": []
+   },
+   "agentConfidence": [
+    "medium",
+    "high"
+   ]
+  },
+  "alistar": {
+   "status": "review",
+   "statConflicts": [],
+   "ability": {
+    "total": 4,
+    "inBoth": 3,
+    "inOne": 0,
+    "derived": [
+     "#1 heal hp: 8/8/8"
+    ]
+   },
+   "agentConfidence": [
+    "high",
+    "medium"
+   ]
+  },
+  "caitlyn": {
+   "status": "verified",
+   "statConflicts": [],
+   "ability": {
+    "total": 2,
+    "inBoth": 2,
+    "inOne": 0,
+    "derived": []
+   },
+   "agentConfidence": [
+    "high",
+    "medium"
+   ]
+  },
+  "elise": {
+   "status": "review",
+   "statConflicts": [],
+   "ability": {
+    "total": 3,
+    "inBoth": 2,
+    "inOne": 0,
+    "derived": [
+     "#3 buff value: 85/85/85"
+    ]
+   },
+   "agentConfidence": [
+    "medium",
+    "medium"
+   ]
+  },
+  "gromp": {
+   "status": "review",
+   "statConflicts": [
+    "ad: ours [30,45,67.5], A [30,45,68], B [45,68,101]"
+   ],
+   "ability": {
+    "total": 2,
+    "inBoth": 1,
+    "inOne": 1,
+    "derived": []
+   },
+   "agentConfidence": [
+    "low",
+    "low"
+   ]
+  },
+  "kayle": {
+   "status": "review",
+   "statConflicts": [
+    "manaStart: ours 0, A 0, B null",
+    "manaMax: ours 0, A 0, B null"
+   ],
+   "ability": {
+    "total": 0,
+    "inBoth": 0,
+    "inOne": 0,
+    "derived": []
+   },
+   "agentConfidence": [
+    "medium",
+    "medium"
+   ]
+  },
+  "leblanc": {
+   "status": "verified",
+   "statConflicts": [],
+   "ability": {
+    "total": 2,
+    "inBoth": 2,
+    "inOne": 0,
+    "derived": []
+   },
+   "agentConfidence": [
+    "low",
+    "medium"
+   ]
+  },
+  "murkwolf": {
+   "status": "verified",
+   "statConflicts": [],
+   "ability": {
+    "total": 4,
+    "inBoth": 4,
+    "inOne": 0,
+    "derived": []
+   },
+   "agentConfidence": [
+    "low",
+    "medium"
+   ]
+  },
+  "scuttlecrab": {
+   "status": "verified",
+   "statConflicts": [],
+   "ability": {
+    "total": 2,
+    "inBoth": 2,
+    "inOne": 0,
+    "derived": []
+   },
+   "agentConfidence": [
+    "medium",
+    "medium"
+   ]
+  },
+  "sejuani": {
+   "status": "review",
+   "statConflicts": [],
+   "ability": {
+    "total": 4,
+    "inBoth": 3,
+    "inOne": 0,
+    "derived": [
+     "#1 shield hp: 10/10/10"
+    ]
+   },
+   "agentConfidence": [
+    "medium",
+    "medium"
+   ]
+  },
+  "shen": {
+   "status": "verified",
+   "statConflicts": [],
+   "ability": {
+    "total": 3,
+    "inBoth": 3,
+    "inOne": 0,
+    "derived": []
+   },
+   "agentConfidence": [
+    "high",
+    "medium"
+   ]
+  },
+  "teemo": {
+   "status": "review",
+   "statConflicts": [],
+   "ability": {
+    "total": 2,
+    "inBoth": 1,
+    "inOne": 0,
+    "derived": [
+     "#1 dmg ap: 110/164/310"
+    ]
+   },
+   "agentConfidence": [
+    "medium",
+    "medium"
+   ]
+  },
+  "warwick": {
+   "status": "verified",
+   "statConflicts": [],
+   "ability": {
+    "total": 2,
+    "inBoth": 2,
+    "inOne": 0,
+    "derived": []
+   },
+   "agentConfidence": [
+    "high",
+    "medium"
+   ]
+  },
+  "yunara": {
+   "status": "mostly",
+   "statConflicts": [],
+   "ability": {
+    "total": 4,
+    "inBoth": 2,
+    "inOne": 2,
+    "derived": []
+   },
+   "agentConfidence": [
+    "medium",
+    "medium"
+   ]
+  },
+  "azir": {
+   "status": "review",
+   "statConflicts": [],
+   "ability": {
+    "total": 2,
+    "inBoth": 1,
+    "inOne": 0,
+    "derived": [
+     "#2 empower ap: 86/130/210"
+    ]
+   },
+   "agentConfidence": [
+    "high",
+    "medium"
+   ]
+  },
+  "cassiopeia": {
+   "status": "verified",
+   "statConflicts": [],
+   "ability": {
+    "total": 1,
+    "inBoth": 1,
+    "inOne": 0,
+    "derived": []
+   },
+   "agentConfidence": [
+    "high",
+    "medium"
+   ]
+  },
+  "diana": {
+   "status": "review",
+   "statConflicts": [
+    "manaMax: ours 30, A 30, B 40"
+   ],
+   "ability": {
+    "total": 2,
+    "inBoth": 2,
+    "inOne": 0,
+    "derived": []
+   },
+   "agentConfidence": [
+    "medium",
+    "medium"
+   ]
+  },
+  "fiddlesticks": {
+   "status": "mostly",
+   "statConflicts": [],
+   "ability": {
+    "total": 2,
+    "inBoth": 1,
+    "inOne": 1,
+    "derived": []
+   },
+   "agentConfidence": [
+    "medium",
+    "low"
+   ]
+  },
+  "hecarim": {
+   "status": "verified",
+   "statConflicts": [],
+   "ability": {
+    "total": 4,
+    "inBoth": 4,
+    "inOne": 0,
+    "derived": []
+   },
+   "agentConfidence": [
+    "medium",
+    "medium"
+   ]
+  },
+  "khazix": {
+   "status": "review",
+   "statConflicts": [],
+   "ability": {
+    "total": 2,
+    "inBoth": 1,
+    "inOne": 0,
+    "derived": [
+     "#1 dmg isolated ap: 20/40/80"
+    ]
+   },
+   "agentConfidence": [
+    "medium",
+    "medium"
+   ]
+  },
+  "kogmaw": {
+   "status": "verified",
+   "statConflicts": [],
+   "ability": {
+    "total": 2,
+    "inBoth": 2,
+    "inOne": 0,
+    "derived": []
+   },
+   "agentConfidence": [
+    "high",
+    "medium"
+   ]
+  },
+  "krug": {
+   "status": "verified",
+   "statConflicts": [],
+   "ability": {
+    "total": 3,
+    "inBoth": 3,
+    "inOne": 0,
+    "derived": []
+   },
+   "agentConfidence": [
+    "medium",
+    "low"
+   ]
+  },
+  "mamabeak": {
+   "status": "review",
+   "statConflicts": [
+    "ad: ours [60,90,135], A [55,83,124], B [60,null,null]"
+   ],
+   "ability": {
+    "total": 1,
+    "inBoth": 0,
+    "inOne": 0,
+    "derived": [
+     "#1 onHitBuff ad: 80/120/200"
+    ]
+   },
+   "agentConfidence": [
+    "medium",
+    "low"
+   ]
+  },
+  "masteryi": {
+   "status": "review",
+   "statConflicts": [
+    "ad: ours [63,95,142], A [63,95,142], B [63,null,null]"
+   ],
+   "ability": {
+    "total": 1,
+    "inBoth": 0,
+    "inOne": 1,
+    "derived": []
+   },
+   "agentConfidence": [
+    "medium",
+    "low"
+   ]
+  },
+  "rammus": {
+   "status": "mostly",
+   "statConflicts": [],
+   "ability": {
+    "total": 5,
+    "inBoth": 3,
+    "inOne": 2,
+    "derived": []
+   },
+   "agentConfidence": [
+    "low",
+    "medium"
+   ]
+  },
+  "rengar": {
+   "status": "review",
+   "statConflicts": [],
+   "ability": {
+    "total": 2,
+    "inBoth": 1,
+    "inOne": 0,
+    "derived": [
+     "#2 heal ap: 90/135/135"
+    ]
+   },
+   "agentConfidence": [
+    "medium",
+    "medium"
+   ]
+  },
+  "tristana": {
+   "status": "review",
+   "statConflicts": [],
+   "ability": {
+    "total": 3,
+    "inBoth": 0,
+    "inOne": 1,
+    "derived": [
+     "#2 buff value: 8/8/8",
+     "#3 dmg ad: 235/355/560"
+    ]
+   },
+   "agentConfidence": [
+    "medium",
+    "medium"
+   ]
+  },
+  "vi": {
+   "status": "verified",
+   "statConflicts": [],
+   "ability": {
+    "total": 3,
+    "inBoth": 3,
+    "inOne": 0,
+    "derived": []
+   },
+   "agentConfidence": [
+    "high",
+    "medium"
+   ]
+  },
+  "ahri": {
+   "status": "review",
+   "statConflicts": [
+    "hp: ours [850,1530,3254], A [850,1530,3254], B [850,1530,2754]"
+   ],
+   "ability": {
+    "total": 1,
+    "inBoth": 1,
+    "inOne": 0,
+    "derived": []
+   },
+   "agentConfidence": [
+    "medium",
+    "medium"
+   ]
+  },
+  "amumu": {
+   "status": "review",
+   "statConflicts": [
+    "hp: ours [1300,2340,4712], A [1300,2340,4712], B [1300,2340,4212]"
+   ],
+   "ability": {
+    "total": 1,
+    "inBoth": 1,
+    "inOne": 0,
+    "derived": []
+   },
+   "agentConfidence": [
+    "medium",
+    "medium"
+   ]
+  },
+  "aphelios": {
+   "status": "review",
+   "statConflicts": [
+    "hp: ours [850,1530,3254], A [850,1530,3254], B [850,1530,2754]"
+   ],
+   "ability": {
+    "total": 3,
+    "inBoth": 2,
+    "inOne": 0,
+    "derived": [
+     "#1 dmg ad: 350/525/4250"
+    ]
+   },
+   "agentConfidence": [
+    "high",
+    "medium"
+   ]
+  },
+  "brambleback": {
+   "status": "review",
+   "statConflicts": [
+    "hp: ours [1100,1980,4064], A [1100,1980,4064], B [1100,1980,3564]"
+   ],
+   "ability": {
+    "total": 2,
+    "inBoth": 1,
+    "inOne": 0,
+    "derived": [
+     "#2 buff value: 40/40/40"
+    ]
+   },
+   "agentConfidence": [
+    "medium",
+    "low"
+   ]
+  },
+  "ezreal": {
+   "status": "review",
+   "statConflicts": [
+    "hp: ours [850,1530,2754], A [850,1530,3254], B [850,1530,2754]"
+   ],
+   "ability": {
+    "total": 2,
+    "inBoth": 2,
+    "inOne": 0,
+    "derived": []
+   },
+   "agentConfidence": [
+    "medium",
+    "medium"
+   ]
+  },
+  "lillia": {
+   "status": "review",
+   "statConflicts": [
+    "hp: ours [1300,2340,4712], A [1300,2340,4712], B [1300,2340,4212]"
+   ],
+   "ability": {
+    "total": 2,
+    "inBoth": 2,
+    "inOne": 0,
+    "derived": []
+   },
+   "agentConfidence": [
+    "high",
+    "medium"
+   ]
+  },
+  "malphite": {
+   "status": "review",
+   "statConflicts": [
+    "hp: ours [1300,2340,4712], A [1300,2340,4712], B [1300,2340,4212]"
+   ],
+   "ability": {
+    "total": 4,
+    "inBoth": 2,
+    "inOne": 2,
+    "derived": []
+   },
+   "agentConfidence": [
+    "medium",
+    "medium"
+   ]
+  },
+  "morgana": {
+   "status": "review",
+   "statConflicts": [
+    "hp: ours [1100,1980,4064], A [1100,1980,4064], B [1100,1980,3564]"
+   ],
+   "ability": {
+    "total": 2,
+    "inBoth": 1,
+    "inOne": 0,
+    "derived": [
+     "#2 dot ap: 132/200/2000"
+    ]
+   },
+   "agentConfidence": [
+    "medium",
+    "medium"
+   ]
+  },
+  "nidalee": {
+   "status": "review",
+   "statConflicts": [
+    "hp: ours [850,1530,3254], A [850,1530,3254], B [850,1530,2754]",
+    "range: ours 5, A 1, B 5"
+   ],
+   "ability": {
+    "total": 2,
+    "inBoth": 1,
+    "inOne": 0,
+    "derived": [
+     "#2 empower ap: 233/350/2333"
+    ]
+   },
+   "agentConfidence": [
+    "medium",
+    "medium"
+   ]
+  },
+  "sentinel": {
+   "status": "review",
+   "statConflicts": [
+    "hp: ours [1300,2340,4712], A [1300,2340,4712], B [1300,2340,4212]"
+   ],
+   "ability": {
+    "total": 4,
+    "inBoth": 3,
+    "inOne": 0,
+    "derived": [
+     "#4 buffTeam value: 2/2/2"
+    ]
+   },
+   "agentConfidence": [
+    "medium",
+    "medium"
+   ]
+  },
+  "sett": {
+   "status": "review",
+   "statConflicts": [
+    "hp: ours [1200,2160,4388], A [1200,2160,4388], B [1200,2160,3888]"
+   ],
+   "ability": {
+    "total": 4,
+    "inBoth": 2,
+    "inOne": 1,
+    "derived": [
+     "#2 dmg hp: 6/6/6"
+    ]
+   },
+   "agentConfidence": [
+    "medium",
+    "medium"
+   ]
+  },
+  "sivir": {
+   "status": "review",
+   "statConflicts": [
+    "hp: ours [850,1530,3254], A [850,1530,3254], B [850,1530,2754]"
+   ],
+   "ability": {
+    "total": 4,
+    "inBoth": 0,
+    "inOne": 2,
+    "derived": [
+     "#2 dmg ad: 39.6/59.4/189",
+     "#2 dmg ap: 2.7/3.6/18"
+    ]
+   },
+   "agentConfidence": [
+    "low",
+    "medium"
+   ]
+  },
+  "soraka": {
+   "status": "review",
+   "statConflicts": [
+    "hp: ours [850,1530,3254], A [850,1530,3254], B [850,1530,2754]"
+   ],
+   "ability": {
+    "total": 2,
+    "inBoth": 1,
+    "inOne": 0,
+    "derived": [
+     "#2 markBonus ap: 330/495/3000"
+    ]
+   },
+   "agentConfidence": [
+    "high",
+    "medium"
+   ]
+  },
+  "zyra": {
+   "status": "review",
+   "statConflicts": [
+    "hp: ours [850,1530,3254], A [850,1530,3254], B [850,1530,2754]"
+   ],
+   "ability": {
+    "total": 1,
+    "inBoth": 0,
+    "inOne": 0,
+    "derived": [
+     "#1 dot ap: 700/1060/9000"
+    ]
+   },
+   "agentConfidence": [
+    "medium",
+    "medium"
+   ]
+  },
+  "alune": {
+   "status": "review",
+   "statConflicts": [
+    "hp: ours [900,1620,6916], A [900,1620,6916], B [900,1620,2916]"
+   ],
+   "ability": {
+    "total": 1,
+    "inBoth": 0,
+    "inOne": 0,
+    "derived": [
+     "#1 dmg ap: 174/264/1500"
+    ]
+   },
+   "agentConfidence": [
+    "medium",
+    "medium"
+   ]
+  },
+  "ashe": {
+   "status": "review",
+   "statConflicts": [
+    "hp: ours [900,1620,6916], A [900,1620,6916], B [900,1620,2916]",
+    "range: ours 6, A 6, B 5"
+   ],
+   "ability": {
+    "total": 3,
+    "inBoth": 1,
+    "inOne": 0,
+    "derived": [
+     "#2 dot ad: 33/48/600",
+     "#2 dot flat: 6/9/60"
+    ]
+   },
+   "agentConfidence": [
+    "low",
+    "medium"
+   ]
+  },
+  "draven": {
+   "status": "review",
+   "statConflicts": [
+    "hp: ours [900,1620,6916], A [900,1620,6916], B [900,1620,2916]",
+    "range: ours 6, A 6, B 5"
+   ],
+   "ability": {
+    "total": 1,
+    "inBoth": 0,
+    "inOne": 0,
+    "derived": [
+     "#1 dmg ad: 200/300/800"
+    ]
+   },
+   "agentConfidence": [
+    "medium",
+    "medium"
+   ]
+  },
+  "elderdragon": {
+   "status": "review",
+   "statConflicts": [
+    "hp: ours [1800,3240,9832], A [1800,3240,9832], B [1800,3240,5832]"
+   ],
+   "ability": {
+    "total": 3,
+    "inBoth": 3,
+    "inOne": 0,
+    "derived": []
+   },
+   "agentConfidence": [
+    "medium",
+    "medium"
+   ]
+  },
+  "gnar": {
+   "status": "review",
+   "statConflicts": [
+    "hp: ours [900,1620,6916], A [900,1620,6916], B [900,1620,2916]",
+    "ad: ours [100,150,225], A [100,150,225], B [1,2,2]"
+   ],
+   "ability": {
+    "total": 4,
+    "inBoth": 4,
+    "inOne": 0,
+    "derived": []
+   },
+   "agentConfidence": [
+    "high",
+    "low"
+   ]
+  },
+  "ivern": {
+   "status": "review",
+   "statConflicts": [
+    "hp: ours [1000,1800,7240], A [1000,1800,7240], B null"
+   ],
+   "ability": {
+    "total": 3,
+    "inBoth": 3,
+    "inOne": 0,
+    "derived": []
+   },
+   "agentConfidence": [
+    "medium",
+    "low"
+   ]
+  },
+  "kennen": {
+   "status": "review",
+   "statConflicts": [
+    "hp: ours [1200,2160,7888], A [1200,2160,7888], B [1200,2160,3888]"
+   ],
+   "ability": {
+    "total": 3,
+    "inBoth": 3,
+    "inOne": 0,
+    "derived": []
+   },
+   "agentConfidence": [
+    "high",
+    "medium"
+   ]
+  },
+  "lux": {
+   "status": "review",
+   "statConflicts": [
+    "hp: ours [900,1620,6916], A [900,1620,6916], B [900,1620,2916]",
+    "range: ours 6, A 6, B 4"
+   ],
+   "ability": {
+    "total": 1,
+    "inBoth": 1,
+    "inOne": 0,
+    "derived": []
+   },
+   "agentConfidence": [
+    "high",
+    "low"
+   ]
+  },
+  "maokai": {
+   "status": "review",
+   "statConflicts": [
+    "hp: ours [1150,2070,7726], A [1150,2070,7726], B [1150,2070,3726]"
+   ],
+   "ability": {
+    "total": 2,
+    "inBoth": 2,
+    "inOne": 0,
+    "derived": []
+   },
+   "agentConfidence": [
+    "medium",
+    "medium"
+   ]
+  },
+  "taric": {
+   "status": "review",
+   "statConflicts": [
+    "hp: ours [1300,2340,8212], A [1300,2340,8212], B [1300,2340,4212]"
+   ],
+   "ability": {
+    "total": 2,
+    "inBoth": 2,
+    "inOne": 0,
+    "derived": []
+   },
+   "agentConfidence": [
+    "medium",
+    "medium"
+   ]
+  }
+ },
+ "traits": {
+  "adaptor": {
+   "breakpointsVerified": true,
+   "agentConfidence": [
+    "high",
+    "medium"
+   ]
+  },
+  "apex_predator": {
+   "breakpointsVerified": true,
+   "agentConfidence": [
+    "high",
+    "high"
+   ]
+  },
+  "attuned": {
+   "breakpointsVerified": true,
+   "agentConfidence": [
+    "low",
+    "medium"
+   ]
+  },
+  "avatar": {
+   "breakpointsVerified": true,
+   "agentConfidence": [
+    "high",
+    "high"
+   ]
+  },
+  "blackthorn": {
+   "breakpointsVerified": true,
+   "agentConfidence": [
+    "medium",
+    "low"
+   ]
+  },
+  "blossom": {
+   "breakpointsVerified": true,
+   "agentConfidence": [
+    "high",
+    "medium"
+   ]
+  },
+  "bounty_seeker": {
+   "breakpointsVerified": true,
+   "agentConfidence": [
+    "medium",
+    "low"
+   ]
+  },
+  "brawler": {
+   "breakpointsVerified": true,
+   "agentConfidence": [
+    "high",
+    "high"
+   ]
+  },
+  "caustic": {
+   "breakpointsVerified": true,
+   "agentConfidence": [
+    "high",
+    "medium"
+   ]
+  },
+  "coven": {
+   "breakpointsVerified": true,
+   "agentConfidence": [
+    "medium",
+    "low"
+   ]
+  },
+  "defender": {
+   "breakpointsVerified": true,
+   "agentConfidence": [
+    "high",
+    "medium"
+   ]
+  },
+  "eclipse": {
+   "breakpointsVerified": true,
+   "agentConfidence": [
+    "medium",
+    "medium"
+   ]
+  },
+  "elderwood": {
+   "breakpointsVerified": true,
+   "agentConfidence": [
+    "medium",
+    "low"
+   ]
+  },
+  "emerald_aspect": {
+   "breakpointsVerified": true,
+   "agentConfidence": [
+    "high",
+    "high"
+   ]
+  },
+  "executioner": {
+   "breakpointsVerified": true,
+   "agentConfidence": [
+    "medium",
+    "medium"
+   ]
+  },
+  "fae": {
+   "breakpointsVerified": true,
+   "agentConfidence": [
+    "medium",
+    "medium"
+   ]
+  },
+  "flora_fatalis": {
+   "breakpointsVerified": true,
+   "agentConfidence": [
+    "medium",
+    "medium"
+   ]
+  },
+  "greenfather": {
+   "breakpointsVerified": true,
+   "agentConfidence": [
+    "low",
+    "low"
+   ]
+  },
+  "hunter": {
+   "breakpointsVerified": true,
+   "agentConfidence": [
+    "low",
+    "medium"
+   ]
+  },
+  "inferno": {
+   "breakpointsVerified": true,
+   "agentConfidence": [
+    "medium",
+    "medium"
+   ]
+  },
+  "invoker": {
+   "breakpointsVerified": true,
+   "agentConfidence": [
+    "medium",
+    "medium"
+   ]
+  },
+  "juggernaut": {
+   "breakpointsVerified": true,
+   "agentConfidence": [
+    "medium",
+    "medium"
+   ]
+  },
+  "lunar": {
+   "breakpointsVerified": true,
+   "agentConfidence": [
+    "high",
+    "medium"
+   ]
+  },
+  "monolith": {
+   "breakpointsVerified": true,
+   "agentConfidence": [
+    "high",
+    "medium"
+   ]
+  },
+  "old_growth": {
+   "breakpointsVerified": true,
+   "agentConfidence": [
+    "medium",
+    "medium"
+   ]
+  },
+  "primal": {
+   "breakpointsVerified": true,
+   "agentConfidence": [
+    "low",
+    "low"
+   ]
+  },
+  "rapidfire": {
+   "breakpointsVerified": true,
+   "agentConfidence": [
+    "medium",
+    "medium"
+   ]
+  },
+  "ravager": {
+   "breakpointsVerified": true,
+   "agentConfidence": [
+    "high",
+    "medium"
+   ]
+  },
+  "riftbeast": {
+   "breakpointsVerified": true,
+   "agentConfidence": [
+    "medium",
+    "low"
+   ]
+  },
+  "rival": {
+   "breakpointsVerified": true,
+   "agentConfidence": [
+    "medium",
+    "medium"
+   ]
+  },
+  "solar": {
+   "breakpointsVerified": false,
+   "agentConfidence": [
+    "medium",
+    "medium"
+   ]
+  },
+  "spellweaver": {
+   "breakpointsVerified": true,
+   "agentConfidence": [
+    "high",
+    "medium"
+   ]
+  },
+  "sprykin": {
+   "breakpointsVerified": true,
+   "agentConfidence": [
+    "medium",
+    "low"
+   ]
+  },
+  "summoner": {
+   "breakpointsVerified": true,
+   "agentConfidence": [
+    "medium",
+    "low"
+   ]
+  },
+  "thornmaiden": {
+   "breakpointsVerified": true,
+   "agentConfidence": [
+    "high",
+    "low"
+   ]
+  },
+  "vanguard": {
+   "breakpointsVerified": true,
+   "agentConfidence": [
+    "high",
+    "medium"
+   ]
+  }
+ }
+}
